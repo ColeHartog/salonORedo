@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Salon O</title>
+    <meta name="description" content='We are a salon who prides itself on delivery a contemporary product, while maintaining a traditional feel. We want our clients and team to always feel welcome and appreciated in our environment. Our core values are integrity, gratitude and mastery. We live by the motto, “Every client, every time.”'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel|Tinos:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="./images/salon%20O_round3.png" type="image/x-icon">
+</head>
+
+<body ng-app="salono">
+
+    <header>
+        <img id="logo" src="./images/longlogo.png">
+        <div id="tabsDiv">
+            <span class="tabs" ui-sref="Home" ui-sref-active="currentPage">Home</span>
+            <span class="tabs" ui-sref="About" ui-sref-active="currentPage">About</span>
+            <span class="tabs" ui-sref="Appointments" ui-sref-active="currentPage">Appointments</span>
+            <span class="tabs" ui-sref="Services" ui-sref-active="currentPage">Services</span>
+            <span class="tabs" ui-sref="Team" ui-sref-active="currentPage">Team</span>
+            <span class="tabs" ui-sref="Products" ui-sref-active="currentPage">Products</span>
+        </div>
+    </header>
+
+    <ui-view></ui-view>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/mainCtrl.js"></script>
+    <script src="./js/mainSvc.js"></script>
+
+    <!--	#Sources   -->
+	<script src="./ProductsRoute/ProductsCtrl.js"></script>
+	<script src="./ProductsRoute/ProductsSvc.js"></script>
+	<script src="./TeamRoute/TeamCtrl.js"></script>
+	<script src="./TeamRoute/TeamSvc.js"></script>
+	<script src="./ServicesRoute/ServicesCtrl.js"></script>
+	<script src="./ServicesRoute/ServicesSvc.js"></script>
+	<script src="./AppointmentsRoute/AppointmentsCtrl.js"></script>
+	<script src="./AppointmentsRoute/AppointmentsSvc.js"></script>
+	<script src="./AboutRoute/AboutCtrl.js"></script>
+	<script src="./AboutRoute/AboutSvc.js"></script>
+
+</body>
+
+</html>
