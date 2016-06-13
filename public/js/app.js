@@ -12,7 +12,7 @@ angular.module("salono", ["ui.router"])
 	.state("Products", {
 		url:"/Products",
 		templateUrl: "./ProductsRoute/ProductsTmpl.html",
-//		controller: "ProductsCtrl"
+		controller: "ProductsCtrl"
 	})
  
 	.state("Team", {

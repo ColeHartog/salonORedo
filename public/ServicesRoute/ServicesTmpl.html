@@ -3,10 +3,12 @@
     <div class="infoBox">
         <p>Our mission is to achieve a high level of well -being for our guests through the integrity of our art.</p>
         <br>
-        /<span class="servicesNames" ng-repeat="service in Services" ng-click="SelectService(service)">
-            <span ng-class="{selectedService: service === Selected}">{{service}}</span> /
-        </span>
-        <br><br>
+        <div class="serviceBox">
+            /<span class="servicesNames" ng-repeat="service in Services" ng-click="SelectService(service)">
+                <span ng-class="{selectedService: service === Selected}">{{service}}</span> /
+            </span>
+        </div>
+        <br>
         <div class="serviceItems" ng-repeat="item in ServiceDetails[Selected]">
             {{item}}
         </div>

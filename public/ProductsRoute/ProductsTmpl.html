@@ -1,3 +1,17 @@
 <section class="mainSection" style="background-image: url(./images/product.jpg)">
-    Products Page
+    <h2>Products</h2>
+    <div class="infoBox">
+        <p>At Salon O we take pride in choosing product lines that use the highest grade botanical ingrediants. not only do our product lines produce beautiful, healthy scalp and hair, but they are all fully-vested in sustainability.</p>
+        <br>
+        <div class="serviceBox">
+            /<span class="servicesNames" ng-repeat="product in Products" ng-click="SelectProduct(product)">
+            <span ng-class="{selectedService: product === Selected}">{{product}}</span> /
+            </span>
+        </div>
+        <br>
+        <div class="productItems">
+            <img src="{{ProductDetails[Selected].url}}">
+            <p>{{ProductDetails[Selected].text}}</p>
+        </div>
+    </div>
 </section>

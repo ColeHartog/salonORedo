@@ -27,7 +27,7 @@ h2 {
   font-size: 42px;
   color: #D5D5D5;
   position: relative;
-  top: 150px;
+  top: 100px;
   left: 250px; }
 
 #logo {
@@ -63,7 +63,7 @@ h2 {
 .infoBox {
   width: 700px;
   position: relative;
-  top: 200px;
+  top: 150px;
   left: 250px;
   background-color: rgba(34, 34, 34, 0.85);
   color: #D5D5D5;
@@ -71,11 +71,12 @@ h2 {
   font-size: 28px;
   line-height: 1.3;
   font-family: Tinos;
-  box-shadow: -10px 10px 10px rgba(34, 34, 34, 0.5); }
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5); }
 
 .servicesNames {
   border: 0;
-  font-size: 22px; }
+  font-size: 22px;
+  text-align: center; }
 
 .servicesNames:hover {
   cursor: pointer; }
@@ -87,3 +88,15 @@ h2 {
   font-size: 22px;
   line-height: 2.3;
   border-bottom: 1px solid #D5D5D5; }
+
+.serviceBox {
+  text-align: center; }
+
+.productItems {
+  font-size: 22px;
+  display: flex; }
+  .productItems p {
+    flex: 1;
+    padding-left: 10px; }
+  .productItems img {
+    flex: 1; }
