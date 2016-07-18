@@ -1,12 +1,10 @@
 @font-face {
-  font-family: 'Cinzel', serif; }
-
-@font-face {
-  font-family: 'Tinos', serif; }
+  font-family: 'Raleway', sans-serif; }
 
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Raleway'; }
 
 html, body {
   width: 100%;
@@ -18,14 +16,14 @@ header {
   height: 75px;
   position: relative;
   font-family: Cinzel;
-  background-color: #D5D5D5;
+  background-color: #e0e0e0;
   color: #222; }
 
 h2 {
   font-family: Cinzel;
   font-weight: lighter;
   font-size: 42px;
-  color: #D5D5D5;
+  color: #e0e0e0;
   position: relative;
   top: 100px;
   left: 250px; }
@@ -58,7 +56,8 @@ h2 {
 .mainSection {
   width: 100%;
   height: calc(100% - 75px);
-  background-position: right; }
+  background-position: right;
+  background-size: cover; }
 
 .infoBox {
   width: 700px;
@@ -66,7 +65,7 @@ h2 {
   top: 150px;
   left: 250px;
   background-color: rgba(34, 34, 34, 0.85);
-  color: #D5D5D5;
+  color: #e0e0e0;
   padding: 40px;
   font-size: 28px;
   line-height: 1.3;
@@ -87,10 +86,11 @@ h2 {
 .serviceItems {
   font-size: 22px;
   line-height: 2.3;
-  border-bottom: 1px solid #D5D5D5; }
+  border-bottom: 1px solid #e0e0e0; }
 
 .serviceBox {
-  text-align: center; }
+  text-align: center;
+  font-size: 22px; }
 
 .productItems {
   font-size: 22px;

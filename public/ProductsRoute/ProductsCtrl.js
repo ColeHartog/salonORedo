@@ -1,8 +1,8 @@
 angular.module("salono").controller("ProductsCtrl", ["$scope", function($scope){
     
-    $scope.Selected = "Oribe";
+    $scope.Selected = "Kevin Murphy";
     
-	$scope.Products = ["Oribe", "Phytologie", "Kevin Murphy"];
+	$scope.Products = ["Kevin Murphy", "Phytologie", "Oribe"];
     
     $scope.ProductDetails = {
         "Oribe" : {text: "Straight from the runway, Oribe is our second line that has made its way from the fashion world to the salon. The beautiful packaging is just the beginning. Oribe was created for the client that wants luxury, while still enjoying the benefits of a color-safe, hydrating product line. One of the finest in hair care products, Oribe boasts long-lasting styles with minimal expertise needed.", url: "./images/products/oribe.png"},
