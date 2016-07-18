@@ -6,6 +6,12 @@
   margin: 0;
   font-family: 'Raleway'; }
 
+a {
+  text-decoration: none; }
+
+a:hover {
+  cursor: pointer; }
+
 html, body {
   width: 100%;
   height: 100%;
@@ -15,18 +21,16 @@ header {
   width: 100%;
   height: 75px;
   position: relative;
-  font-family: Cinzel;
-  background-color: #e0e0e0;
+  background-color: #a5a0a4;
   color: #222; }
 
 h2 {
-  font-family: Cinzel;
   font-weight: lighter;
   font-size: 42px;
-  color: #e0e0e0;
+  color: #818285;
   position: relative;
   top: 100px;
-  left: 250px; }
+  left: 200px; }
 
 #logo {
   max-height: 200px;
@@ -63,13 +67,12 @@ h2 {
   width: 700px;
   position: relative;
   top: 150px;
-  left: 250px;
+  left: 200px;
   background-color: rgba(34, 34, 34, 0.85);
-  color: #e0e0e0;
+  color: #818285;
   padding: 40px;
   font-size: 28px;
   line-height: 1.3;
-  font-family: Tinos;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5); }
 
 .servicesNames {
@@ -86,7 +89,7 @@ h2 {
 .serviceItems {
   font-size: 22px;
   line-height: 2.3;
-  border-bottom: 1px solid #e0e0e0; }
+  border-bottom: 1px solid #a5a0a4; }
 
 .serviceBox {
   text-align: center;
@@ -100,3 +103,19 @@ h2 {
     padding-left: 10px; }
   .productItems img {
     flex: 1; }
+
+.appFlex {
+  flex: 5;
+  text-align: center;
+  padding: 0 40px; }
+
+.appFlex:first-of-type {
+  border-right: 1px solid #818285; }
+
+#appLinkDiv {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  padding: 10px 0;
+  background-color: #a5a0a4;
+  color: black; }
