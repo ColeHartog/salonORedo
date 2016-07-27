@@ -1,3 +1,11 @@
 <section class="mainSection" style="background-image: url(./images/D7k_160523_0273E-A1a-1080.jpg); background-position:top">
-    Team Page
+    <section id="teamHolder">
+        <span ng-click="move('left')">■</span>
+        <span>
+            <div class="stylistCard" ng-repeat="stylist in teamArray" style="background-image:url({{stylist.preview}}); left:{{leftPOS}}%">
+                {{stylist.name}}
+            </div>
+        </span>
+        <span ng-click="move('right')">■</span>
+    </section>
 </section>

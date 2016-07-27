@@ -48,7 +48,8 @@ footer {
     text-align: center;
     display: flex; }
     footer section span {
-      flex: 1; }
+      flex: 1;
+      font-family: 'Josefin Sans'; }
 
 #logo {
   max-height: 200px;
@@ -138,3 +139,41 @@ footer {
   padding: 10px 10px;
   background-color: #818285;
   color: black; }
+
+#teamHolder {
+  position: relative;
+  top: 25%;
+  left: 5%;
+  width: 90%;
+  height: 50%;
+  display: flex;
+  background-color: rgba(34, 34, 34, 0.85);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5); }
+  #teamHolder span {
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    padding: 10px; }
+  #teamHolder span:nth-of-type(2) {
+    flex: 8;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 40px; }
+
+.stylistCard {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  left: 0%;
+  margin-left: 6%;
+  font-size: 48px;
+  font-weight: bold;
+  color: #818285;
+  transition: left .35s ease-out; }
+
+.stylistCard:first-of-type {
+  margin-left: 0; }

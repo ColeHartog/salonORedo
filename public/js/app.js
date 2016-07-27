@@ -18,7 +18,7 @@ angular.module("salono", ["ui.router"])
 	.state("Team", {
 		url:"/Team",
 		templateUrl: "./TeamRoute/TeamTmpl.html",
-//		controller: "TeamCtrl"
+		controller: "TeamCtrl"
 	})
  
 	.state("Services", {
