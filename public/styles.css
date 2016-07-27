@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'Raleway', sans-serif; }
 
+@font-face {
+  font-family: 'Josefin Sans', sans-serif; }
+
 * {
   padding: 0;
   margin: 0;
@@ -32,8 +35,20 @@ h2 {
   top: 100px;
   left: 200px; }
 
-primColor {
-  color: #a5a0a4; }
+footer {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  background-color: rgba(34, 34, 34, 0.85); }
+  footer section {
+    flex: 1;
+    text-align: center;
+    display: flex; }
+    footer section span {
+      flex: 1; }
 
 #logo {
   max-height: 200px;
@@ -52,7 +67,9 @@ primColor {
   font-size: 30px; }
 
 .tabs {
-  margin: 0 20px 0 0; }
+  margin: 0 20px 0 0;
+  color: #f1f1f1;
+  font-family: 'Josefin Sans'; }
 
 .tabs:hover {
   cursor: pointer; }
@@ -64,13 +81,14 @@ primColor {
   width: 100%;
   height: calc(100% - 75px);
   background-position: right;
-  background-size: cover; }
+  background-size: cover;
+  transition: all .5s linear; }
 
 .infoBox {
   width: 700px;
   position: relative;
   top: 150px;
-  left: 200px;
+  left: 150px;
   background-color: rgba(34, 34, 34, 0.85);
   color: #818285;
   padding: 40px;
@@ -87,7 +105,7 @@ primColor {
   cursor: pointer; }
 
 .selectedService {
-  color: #818285; }
+  color: #a5a0a4; }
 
 .serviceItems {
   font-size: 22px;
@@ -115,10 +133,8 @@ primColor {
 .appFlex:first-of-type {
   border-right: 1px solid #818285; }
 
-#appLinkDiv {
-  width: 50%;
+.appLinkDiv {
   position: relative;
-  left: 25%;
-  padding: 10px 0;
-  background-color: #a5a0a4;
+  padding: 10px 10px;
+  background-color: #818285;
   color: black; }

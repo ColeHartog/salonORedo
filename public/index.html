@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--    <link href='https://fonts.googleapis.com/css?family=Cinzel|Tinos:400,400italic,700' rel='stylesheet' type='text/css'>-->
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" href="./images/salon%20O_round3.png" type="image/x-icon">
 </head>
@@ -15,18 +16,19 @@
 <body ng-app="salono">
 
     <header>
-        <img id="logo" src="./images/longlogo.png">
+        <img id="logo" src="./images/longlogoedits.png">
         <div id="tabsDiv">
-            <span class="tabs" ui-sref="Home" ui-sref-active="currentPage">Home</span>
-            <span class="tabs" ui-sref="About" ui-sref-active="currentPage">About</span>
-            <span class="tabs" ui-sref="Appointments" ui-sref-active="currentPage">Appointments</span>
-            <span class="tabs" ui-sref="Services" ui-sref-active="currentPage">Services</span>
-            <span class="tabs" ui-sref="Team" ui-sref-active="currentPage">Team</span>
-            <span class="tabs" ui-sref="Products" ui-sref-active="currentPage">Products</span>
+            <span class="tabs" ui-sref="Home" ui-sref-active="currentPage">HOME</span>
+            <span class="tabs" ui-sref="About" ui-sref-active="currentPage">ABOUT</span>
+            <span class="tabs" ui-sref="Appointments" ui-sref-active="currentPage">APPOINTMENTS</span>
+            <span class="tabs" ui-sref="Services" ui-sref-active="currentPage">SERVICES</span>
+            <span class="tabs" ui-sref="Team" ui-sref-active="currentPage">TEAM</span>
+            <span class="tabs" ui-sref="Products" ui-sref-active="currentPage">PRODUCTS</span>
         </div>
     </header>
 
     <ui-view></ui-view>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>
     <script src="./js/app.js"></script>
