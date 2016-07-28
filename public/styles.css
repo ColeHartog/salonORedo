@@ -83,7 +83,8 @@ footer {
   height: calc(100% - 75px);
   background-position: right;
   background-size: cover;
-  transition: all .5s linear; }
+  transition: all .5s linear;
+  position: relative; }
 
 .infoBox {
   width: 700px;
@@ -153,7 +154,8 @@ footer {
     height: 100%;
     flex: 1;
     text-align: center;
-    padding: 10px; }
+    padding: 0px;
+    cursor: pointer; }
   #teamHolder span:nth-of-type(2) {
     flex: 8;
     overflow: hidden;
@@ -173,7 +175,45 @@ footer {
   font-size: 48px;
   font-weight: bold;
   color: #818285;
-  transition: left .35s ease-out; }
+  transition: left .35s ease-out;
+  cursor: pointer; }
 
 .stylistCard:first-of-type {
   margin-left: 0; }
+
+.fadedBackdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 2, 0.85); }
+
+#selectedStylistCard {
+  position: relative;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  height: 60%;
+  background-color: #222222;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.85);
+  color: rgba(241, 241, 241, 0.8);
+  padding: 10px; }
+  #selectedStylistCard div {
+    height: 10%;
+    text-align: center;
+    font-size: 48px; }
+  #selectedStylistCard section {
+    height: calc(90% - 20px);
+    padding: 10px;
+    display: flex; }
+    #selectedStylistCard section span {
+      flex: 1; }
+    #selectedStylistCard section span:first-of-type {
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat; }
+    #selectedStylistCard section span:nth-of-type(2) {
+      padding-left: 10px;
+      font-size: 24px;
+      overflow-y: scroll; }
