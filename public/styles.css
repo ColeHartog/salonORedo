@@ -257,3 +257,23 @@ footer {
       overflow-y: scroll;
       overflow-x: hidden;
       white-space: pre-wrap; }
+
+@media (max-width: 1682px) {
+  footer section span {
+    font-size: 1em; } }
+
+@media (max-width: 1412px) {
+  footer section span {
+    font-size: .8em; }
+  .tabs {
+    font-size: 24px; } }
+
+@media (max-width: 1236px) {
+  .tabs {
+    font-size: 16px; } }
+
+@media (max-width: 1028px) {
+  #tabsDiv {
+    display: none; }
+  .mainSection {
+    background-position: center; } }
