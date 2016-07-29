@@ -276,9 +276,8 @@ footer {
   #tabsDiv {
     display: none; }
   .mainSection {
-    background-position: 43.5% 50%;
-    height: calc(100% - 40px);
-    background-image: url(./images/1323E%20A3%201920.jpg) !important; }
+    background-position: 68% 50%;
+    height: calc(100% - 40px); }
   header {
     height: 40px; }
   #logo {
