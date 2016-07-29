@@ -6,8 +6,9 @@ angular.module("salono").controller("mainCtrl", ["$scope", "mainSvc", function($
         "./images/1323E%20A3%201920.jpg",
         "./images/0346E%20A1%201920.jpg",
         "./images/0453E%20A1%201920.jpg",
-        "./images/0732E%20A1%201920.jpg",
-        "./images/0445E%20A2w%201920.jpg"
+        "./images/0421E%20A1%201920.jpg",
+        "./images/0445E%20A2w%201920.jpg",
+        "./images/0732E%20A1%201920.jpg"
     ];
     
     $scope.currentImage = $scope.imagesArray[0];

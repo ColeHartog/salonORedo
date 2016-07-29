@@ -28,6 +28,12 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I began my career in 2012. \n\nFavorite advanced training: Sally Rogerson, Creative Cutting Course. \n\nWhy the hair industry: I was born with a passion for hair. It’s just in my blood. As a child I vividly remember going into the salon with my mother and being thrilled just to be in the environment. They say if you do what you love, you’ll never work a day in your life. I feel extremely blessed to say this is my reality. \n\nThree favorite things: \n·      Family. Friends. My dog, \n·      Music, \n·      Photography-The ability to capture moments. \n\nMost unlikely inspiration: LOVE. Although this may seem so cliche, love is the most powerful emotion we can feel. I am inspired, not only by the love people can have for each other, but also for their careers, hobbies, objects, animals, etc.. Anything can be loved. The energy behind love is not something that can be explained because we all feel it differently."
         },
         {
+            name: "Falecia",
+            preview: "./images/Team/Falecia.png",
+            image: "./images/Team/Falecia-Large.png",
+            bio: "Years in the industry: I’ve been in the hair industry since 1994, and founded Salon O in 2005.Favorite advanced training: Ruth Roach at the RARE Academy in New York. I was \n\nexcited to take a class from my hair hero, a platform artist that I had admired for years. She taught me to be bold and unafraid in creating a shape.\n\nWhy the hair industry: It was the energy. I started my career as a salon consultant, and I absolutely loved how walking into a positive, creative,  and fashion forward salon made me feel.\n\nThree favorite things:\n·      Music.\n·      People.\n·      Food.\n\nMost unlikely inspiration: Geometry. Math made me a better stylist. Haircuts are all about shape and dimension. I LOVE hair color, and to be a great colorist you have to know your color theory and formulate correctly. I’m a closet geek disguised as a stylist."
+        },
+        {
             name: "Hillary",
             preview: "./images/Team/Hillary.jpg",
             image: "./images/Team/Hillary-Large.jpg",

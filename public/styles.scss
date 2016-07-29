@@ -137,7 +137,7 @@ footer {
     height: calc(100% - 75px);
     background-position: right;
     background-size: cover;
-    transition: all .5s linear;
+    transition: all 1s linear;
     position: relative;
 }
 
@@ -328,7 +328,6 @@ footer {
         }
     }
 }
-
 
 @media (max-width: 1682px) {
     footer {
