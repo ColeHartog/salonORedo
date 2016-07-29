@@ -137,7 +137,7 @@ footer {
     height: calc(100% - 75px);
     background-position: right;
     background-size: cover;
-    transition: all 1s linear;
+    transition: background-image 1s linear;
     position: relative;
 }
 
@@ -366,5 +366,15 @@ footer {
     
     .mainSection {
         background-position: center;
+        height: calc(100% - 40px);
+    }
+    
+    header {
+        height: 40px;
+    }
+    
+    #logo {
+        max-height: 38px;
+        width: 200px;
     }
 }
