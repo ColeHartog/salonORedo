@@ -61,10 +61,41 @@ footer {
         flex: 1;
         text-align: center;
         display: flex;
+        position: relative;
+        height: 25px;
         
         span {
             flex: 1;
             font-family: 'Josefin Sans';
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2em;
+        }
+        
+        svg {
+            flex: 1;
+            transition: all .5s ease;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        svg:hover {
+            cursor: pointer;
+            height: 50px;
+        }
+        
+        svg #facebook, svg #instagram {
+            transition: all .5s ease;
+        }
+        
+        svg:hover #facebook{
+            fill: dodgerblue;
+        }
+        
+        svg:hover #instagram{
+            fill: darkorange;
         }
     }
 }
@@ -152,13 +183,21 @@ footer {
     font-size: 22px;
     display: flex;
     
-    p {
+    span {
         flex: 1;
         padding-left: 10px;
+        position: relative;
+        
+        p {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
     
     img {
         flex: 1;
+        max-height: 282px;
     }
     
 }
@@ -207,7 +246,7 @@ footer {
 
 .stylistCard {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: contain;
     width: 20%;
     height: 100%;
@@ -215,11 +254,20 @@ footer {
     position: relative;
     left: 0%;
     margin-left: 6%;
+    margin-top: 2%;
     font-size: 48px;
     font-weight: bold;
     color: $accent-color;
     transition: left .35s ease-out;
     cursor: pointer;
+    
+    p {
+        position: absolute;
+        bottom: 25%;
+        text-align: center;
+        width: 100%;
+        font-family: 'Josefin Sans'
+    }
 }
 
 .stylistCard:first-of-type {
@@ -249,7 +297,9 @@ footer {
     div {
         height: 10%;
         text-align: center;
-        font-size: 48px;
+        font-size: 2.75em;
+        font-family: 'Josefin Sans';
+        font-weight: bold;
     }
     
     section {
@@ -269,8 +319,12 @@ footer {
         
         span:nth-of-type(2) {
             padding-left: 10px;
-            font-size: 24px;
+            padding-right: 10px;
+            font-size: 1.5em;
+            line-height: 1.3;
             overflow-y: scroll;
+            overflow-x: hidden;
+            white-space: pre-wrap;
         }
     }
 }

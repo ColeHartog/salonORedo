@@ -12,7 +12,7 @@
         </span>
         <span>
             <div class="stylistCard" ng-repeat="stylist in teamArray" style="background-image:url({{stylist.preview}}); left:{{leftPOS}}%" ng-click="selectStylist($index)">
-                {{stylist.name}}
+                <p>{{stylist.name}}</p>
             </div>
         </span>
         <span ng-click="move('left')">

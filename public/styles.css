@@ -46,10 +46,31 @@ footer {
   footer section {
     flex: 1;
     text-align: center;
-    display: flex; }
+    display: flex;
+    position: relative;
+    height: 25px; }
     footer section span {
       flex: 1;
-      font-family: 'Josefin Sans'; }
+      font-family: 'Josefin Sans';
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.2em; }
+    footer section svg {
+      flex: 1;
+      transition: all .5s ease;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+    footer section svg:hover {
+      cursor: pointer;
+      height: 50px; }
+    footer section svg #facebook, footer section svg #instagram {
+      transition: all .5s ease; }
+    footer section svg:hover #facebook {
+      fill: dodgerblue; }
+    footer section svg:hover #instagram {
+      fill: darkorange; }
 
 #logo {
   max-height: 200px;
@@ -121,11 +142,17 @@ footer {
 .productItems {
   font-size: 22px;
   display: flex; }
-  .productItems p {
+  .productItems span {
     flex: 1;
-    padding-left: 10px; }
+    padding-left: 10px;
+    position: relative; }
+    .productItems span p {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
   .productItems img {
-    flex: 1; }
+    flex: 1;
+    max-height: 282px; }
 
 .appFlex {
   flex: 5;
@@ -164,7 +191,7 @@ footer {
 
 .stylistCard {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: contain;
   width: 20%;
   height: 100%;
@@ -172,11 +199,18 @@ footer {
   position: relative;
   left: 0%;
   margin-left: 6%;
+  margin-top: 2%;
   font-size: 48px;
   font-weight: bold;
   color: #818285;
   transition: left .35s ease-out;
   cursor: pointer; }
+  .stylistCard p {
+    position: absolute;
+    bottom: 25%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Josefin Sans'; }
 
 .stylistCard:first-of-type {
   margin-left: 0; }
@@ -202,7 +236,9 @@ footer {
   #selectedStylistCard div {
     height: 10%;
     text-align: center;
-    font-size: 48px; }
+    font-size: 2.75em;
+    font-family: 'Josefin Sans';
+    font-weight: bold; }
   #selectedStylistCard section {
     height: calc(90% - 20px);
     padding: 10px;
@@ -215,5 +251,9 @@ footer {
       background-repeat: no-repeat; }
     #selectedStylistCard section span:nth-of-type(2) {
       padding-left: 10px;
-      font-size: 24px;
-      overflow-y: scroll; }
+      padding-right: 10px;
+      font-size: 1.5em;
+      line-height: 1.3;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      white-space: pre-wrap; }
