@@ -56,6 +56,8 @@ footer {
       top: 50%;
       transform: translateY(-50%);
       font-size: 1.2em; }
+    footer section #spanSpacer {
+      flex: 4; }
     footer section svg {
       flex: 1;
       transition: all .5s ease;
@@ -282,4 +284,16 @@ footer {
     height: 40px; }
   #logo {
     max-height: 38px;
-    width: 200px; } }
+    width: 200px; }
+  footer section #spanSpacer {
+    flex: .5; }
+  footer section:first-of-type span:first-of-type {
+    flex: 0; }
+  footer section:nth-of-type(2) {
+    flex: 4;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 50%; }
+    footer section:nth-of-type(2) span:nth-of-type(2) {
+      flex: 3; } }
