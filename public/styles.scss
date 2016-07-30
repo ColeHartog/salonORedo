@@ -104,6 +104,8 @@ footer {
     }
 }
 
+
+
 #logo {
 	max-height: 200px;
 	width: 400px;
@@ -158,6 +160,10 @@ footer {
     box-shadow: -10px 10px 10px rgba(0,0,0, .5);
 }
 
+.infoBox::webkit-scrollbar {
+    display: none;
+}
+
 .servicesNames {
     border: 0;
     font-size: 22px;
@@ -186,6 +192,7 @@ footer {
 .productItems {
     font-size: 22px;
     display: flex;
+    flex-direction: row;
     
     span {
         flex: 1;
@@ -405,7 +412,11 @@ footer {
             text-align: center;
             font-size: 18px;
             position: relative;
-            top: 50%;
+            
+            span {
+                position: relative;
+                top: 60%;
+            }
             
             span:nth-of-type(2) {
                 flex: 3;
@@ -413,4 +424,56 @@ footer {
             
         }
     }
+    
+    .infoBox {
+        top: 20px;
+        left: 5vw;
+        width: 90vw !important;
+        max-height: 77vh;
+        font-size: 24px;
+        overflow-y: scroll;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+        p {
+            padding: 0 40px;
+        }
+    }
+    
+    .productItems {
+        flex-direction: column;
+        
+        span {
+            
+            padding-bottom: 20px;
+            
+            p {
+                top: 10px;
+                transform: translateY(0%);
+                padding-bottom: 40px;
+            }
+            
+        }
+        
+    }
+    
+    #appMobileFlexDir {
+        flex-direction: column;
+    }
+    
+    .appFlex {
+        
+        svg {
+            width: 135;
+            height: 135px;
+        }
+        
+    }
+    
+    .appFlex:first-of-type {
+        border-right: 0;
+        padding-bottom: 30px;
+        border-bottom: 1px solid $accent-color;
+    }
+    
 }
