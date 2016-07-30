@@ -22,4 +22,6 @@ angular.module("salono").controller("mainCtrl", ["$scope", "mainSvc", function($
         $scope.$apply();
     }, 5000);
     
+    $scope.showSideBar = false;
+    
 }]);

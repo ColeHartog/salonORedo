@@ -6,7 +6,6 @@
     <title>Salon O</title>
     <meta name="description" content='We are a salon who prides itself on delivery a contemporary product, while maintaining a traditional feel. We want our clients and team to always feel welcome and appreciated in our environment. Our core values are integrity, gratitude and mastery. We live by the motto, “Every client, every time.”'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--    <link href='https://fonts.googleapis.com/css?family=Cinzel|Tinos:400,400italic,700' rel='stylesheet' type='text/css'>-->
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -25,12 +24,55 @@
             <span class="tabs" ui-sref="Team" ui-sref-active="currentPage">TEAM</span>
             <span class="tabs" ui-sref="Products" ui-sref-active="currentPage">PRODUCTS</span>
         </div>
+        <div id="hamburgerIcon" ng-click="showSideBar = true" ng-hide="showSideBar">
+             <svg width="30px" height="40px" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <path d="M 0,0
+                         L 1000,0
+                         L 1000,100
+                         L 0,100 z
+                         
+                         M 0,300
+                         L 1000,300
+                         L 1000,400
+                         L 0,400 z
+                         
+                         M 0,600
+                         L 1000,600
+                         L 1000,700
+                         L 0,700 z" fill="#22222" />
+            </svg>
+        </div>
+        <div id="XIcon" ng-click="showSideBar = false" ng-show="showSideBar">
+             <svg width="30px" height="40px" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <path d="M 0,50
+                         L 50,0
+                         L 500,450
+                         L 450,500 z
+                         
+                         M 50,500
+                         L 0,450
+                         L 450,0
+                         L 500,50 z" fill="#222222" />
+            </svg>
+        </div>
     </header>
-
+    
     <ui-view></ui-view>
+    
+    <div id="sideBar" ng-show="showSideBar">
+        <section id="mobileTabsSection">
+            <div ui-sref="Home" ui-sref-active="selectedMobile" ng-click="showSideBar = false">HOME</div>
+            <div ui-sref="About" ui-sref-active="selectedMobile" ng-click="showSideBar = false">ABOUT</div>
+            <div ui-sref="Appointments" ui-sref-active="selectedMobile" ng-click="showSideBar = false">APPOINTMENTS</div>
+            <div ui-sref="Services" ui-sref-active="selectedMobile" ng-click="showSideBar = false">SERVICES</div>
+            <div ui-sref="Team" ui-sref-active="selectedMobile" ng-click="showSideBar = false">TEAM</div>
+            <div ui-sref="Products" ui-sref-active="selectedMobile" ng-click="showSideBar = false">PRODUCTS</div>
+        </section>
+    </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-animate.min.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/mainCtrl.js"></script>
     <script src="./js/mainSvc.js"></script>
