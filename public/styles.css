@@ -278,7 +278,8 @@ footer {
   height: calc(100vh - 40px);
   background-color: rgba(2, 2, 2, 0.8);
   transition: all .5s ease-out;
-  opacity: 1; }
+  opacity: 1;
+  font-size: 28px; }
   #sideBar svg {
     position: absolute;
     top: 10px;
