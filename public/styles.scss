@@ -609,14 +609,19 @@ footer {
             div {
                 display: inline-block;
                 flex: 1;
+                vertical-align: text-bottom;
+                position: relative;
+                
+                span {
+                    position: absolute;
+                    bottom: 10%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
             }
             
             span {
                 flex: 4.5;
-            }
-            
-            span:last-of-type {
-                padding-top: 10px;
             }
         }
     }

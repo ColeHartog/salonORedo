@@ -425,8 +425,13 @@ footer {
       height: 95%; }
       #selectedStylistCard section div {
         display: inline-block;
-        flex: 1; }
+        flex: 1;
+        vertical-align: text-bottom;
+        position: relative; }
+        #selectedStylistCard section div span {
+          position: absolute;
+          bottom: 10%;
+          left: 50%;
+          transform: translateX(-50%); }
       #selectedStylistCard section span {
-        flex: 4.5; }
-      #selectedStylistCard section span:last-of-type {
-        padding-top: 10px; } }
+        flex: 4.5; } }
