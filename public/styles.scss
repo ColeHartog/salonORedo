@@ -522,8 +522,8 @@ footer {
     .appFlex {
         
         svg {
-            width: 135;
-            height: 135px;
+            width: 100px;
+            height: 100px;
         }
         
     }
@@ -532,6 +532,10 @@ footer {
         border-right: 0;
         padding-bottom: 30px;
         border-bottom: 1px solid $accent-color;
+    }
+    
+    .appFlex:last-of-type {
+        padding-bottom: 10px;
     }
     
     #hamburgerIcon, #XIcon {
@@ -624,14 +628,6 @@ footer {
             span {
                 flex: 4.5;
             }
-        }
-    }
-    
-    .appFlex {
-        svg {
-            width: 100px !important;
-            height: 100px !important;
-            font-size: 16px;
         }
     }
     

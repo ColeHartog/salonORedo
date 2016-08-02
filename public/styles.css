@@ -369,12 +369,14 @@ footer {
   #appMobileFlexDir {
     flex-direction: column; }
   .appFlex svg {
-    width: 135;
-    height: 135px; }
+    width: 100px;
+    height: 100px; }
   .appFlex:first-of-type {
     border-right: 0;
     padding-bottom: 30px;
     border-bottom: 1px solid #818285; }
+  .appFlex:last-of-type {
+    padding-bottom: 10px; }
   #hamburgerIcon, #XIcon {
     display: inline-block;
     position: absolute;
@@ -435,8 +437,4 @@ footer {
           left: 50%;
           transform: translateX(-50%); }
       #selectedStylistCard section span {
-        flex: 4.5; }
-  .appFlex svg {
-    width: 100px !important;
-    height: 100px !important;
-    font-size: 16px; } }
+        flex: 4.5; } }
