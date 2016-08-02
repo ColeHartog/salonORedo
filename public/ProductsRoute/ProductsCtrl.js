@@ -10,7 +10,7 @@ angular.module("salono").controller("ProductsCtrl", ["$scope", function($scope){
         "Kevin Murphy" : {text: "Kevin Murphy is a fashion-focused product line originally created by Kevin Murphy to meet his needs as an editorial hair stylist. Murphy’s products provide performance, strength and longevity to support today’s ever-changing looks.", url: "./images/products/kevinmurphynew.png"}
     };
     
-    $scope.SelectProduct = (name) => {
+    $scope.SelectProduct = function(name) {
         $scope.Selected = name;
     }
 
