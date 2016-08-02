@@ -397,6 +397,13 @@ footer {
     color: rgba(241,241,241,.25);
 }
 
+@media (max-height: 710px) {
+    .infoBox {
+        top: 50px;
+        left: 50px;
+    }
+}
+
 @media (max-width: 1682px) {
     footer {
         section {
