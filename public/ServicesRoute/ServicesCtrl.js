@@ -13,7 +13,7 @@ angular.module("salono").controller("ServicesCtrl", ["$scope", "ServicesSvc", fu
         "Indulge" : ["Full Body Waxing & Sugaring", "Full Face Waxing & Sugaring", "Brow Microblading"]
     };
     
-    $scope.SelectService = (name) => {
+    $scope.SelectService = function(name) {
         $scope.Selected = name;
     }
 

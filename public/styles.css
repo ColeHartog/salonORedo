@@ -142,7 +142,8 @@ footer {
 
 .serviceBox {
   text-align: center;
-  font-size: 22px; }
+  font-size: 22px;
+  min-height: 20px; }
 
 .productItems {
   font-size: 22px;
@@ -367,9 +368,11 @@ footer {
         padding-bottom: 40px; }
   #appMobileFlexDir {
     flex-direction: column; }
-  .appFlex svg {
-    width: 135;
-    height: 135px; }
+  .appFlex {
+    height: 95vh; }
+    .appFlex svg {
+      width: 135;
+      height: 135px; }
   .appFlex:first-of-type {
     border-right: 0;
     padding-bottom: 30px;

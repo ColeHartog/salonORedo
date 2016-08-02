@@ -187,6 +187,7 @@ footer {
 .serviceBox {
     text-align: center;
     font-size: 22px;
+    min-height: 20px;
 }
 
 .productItems {
@@ -519,6 +520,7 @@ footer {
     }
     
     .appFlex {
+        height: 95vh;
         
         svg {
             width: 135;
