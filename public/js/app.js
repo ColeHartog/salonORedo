@@ -36,7 +36,7 @@ angular.module("salono", ["ui.router", "ngAnimate"])
 	.state("About", {
 		url:"/About",
 		templateUrl: "./AboutRoute/AboutTmpl.html",
-//		controller: "AboutCtrl"
+		controller: "AboutCtrl"
 	})
  
 

@@ -1,12 +1,16 @@
 <section class="mainSection" style="background-image: url(./images/0122E%20A3%201920.jpg)">
 <!--    <h2>About Us</h2>-->
     <div class="infoBox">
-        <p>
-            Our vision is simple.
-            <br><br>
-            We strive to create a warm environment where our inspiration and talent can thrive. Our focus is to deliver a finished product matched specific to each guest’s own uniqueness.
-            <br><br>
-            Traditional feel. Contemporary product.
+        <p style="font-size: 20px">
+            <a ng-repeat="item in Options" ng-click="selectOption(item)" style="font-size: 28px;">
+                <span ng-if="$index !== 0">/</span> <span ng-class="{selectedService: item === selected}">{{item.name}}</span>
+            </a>
+            <br><br><br>
+            {{selected.info}}
+            <section ng-if="selected.info2" style="font-size: 20px">
+                <br><br>
+                {{selected.info2}}
+            </section>
         </p>
     </div>
 </section>
