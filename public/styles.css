@@ -435,4 +435,7 @@ footer {
           left: 50%;
           transform: translateX(-50%); }
       #selectedStylistCard section span {
-        flex: 4.5; } }
+        flex: 4.5; }
+  .appFlex svg {
+    width: 150px !important;
+    height: 150px !important; } }
