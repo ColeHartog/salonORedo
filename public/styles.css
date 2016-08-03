@@ -210,7 +210,7 @@ footer {
   font-size: 48px;
   font-weight: bold;
   color: #818285;
-  transition: left .35s ease-out;
+  transition: left .75s ease-in-out;
   cursor: pointer; }
   .stylistCard p {
     position: absolute;

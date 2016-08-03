@@ -270,7 +270,7 @@ footer {
     font-size: 48px;
     font-weight: bold;
     color: $accent-color;
-    transition: left .35s ease-out;
+    transition: left .75s ease-in-out;
     cursor: pointer;
     
     p {
