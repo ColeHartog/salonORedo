@@ -26,6 +26,7 @@ a:hover {
 html, body {
  	width: 100%;
  	height: 100%;
+    overflow: hidden;
 }
 
 header {
@@ -156,7 +157,7 @@ footer {
 .infoBox {
 //    width: 700px;
     width: 40%;
-    max-height: calc(100% - 200px);
+    max-height: calc(100% - 300px);
     position: relative;
     top: 150px;
     left: 150px;
@@ -208,6 +209,7 @@ footer {
         flex: 1;
         padding-left: 10px;
         position: relative;
+        min-width: 316px;
         
         p {
             position: absolute;
@@ -420,6 +422,7 @@ footer {
     .infoBox {
         top: 50px;
         left: 50px;
+        max-height: calc(100% - 200px);
     }
 }
 
@@ -513,7 +516,7 @@ footer {
         top: 20px;
         left: 5vw;
         width: 90vw !important;
-        max-height: 77vh;
+        max-height: calc(100% - 150px);
         font-size: 24px;
         overflow-y: scroll;
         padding-left: 0px;
