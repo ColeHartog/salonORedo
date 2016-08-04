@@ -405,10 +405,13 @@ footer {
         padding-bottom: 40px; }
   #appMobileFlexDir {
     display: block;
-    height: calc(100% - 150px); }
-  .appFlex svg {
-    width: 100px;
-    height: 100px; }
+    max-height: calc(100% - 150px);
+    padding-top: 10px; }
+  .appFlex {
+    font-size: 18px; }
+    .appFlex svg {
+      width: 100px;
+      height: 100px; }
   .appFlex:first-of-type {
     border-right: 0;
     padding-bottom: 30px;
