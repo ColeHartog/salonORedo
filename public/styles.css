@@ -485,7 +485,7 @@ footer {
         position: relative; }
         #selectedStylistCard section div span {
           position: absolute;
-          bottom: 20%;
+          bottom: 5px;
           left: 50%;
           transform: translateX(-50%);
           font-family: "Julius Sans One"; }
