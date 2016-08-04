@@ -403,9 +403,11 @@ footer {
   #appMobileFlexDir {
     flex-direction: column;
     height: calc(100% - 150px); }
-  .appFlex svg {
-    width: 100px;
-    height: 100px; }
+  .appFlex {
+    display: block; }
+    .appFlex svg {
+      width: 100px;
+      height: 100px; }
   .appFlex:first-of-type {
     border-right: 0;
     padding-bottom: 30px;
