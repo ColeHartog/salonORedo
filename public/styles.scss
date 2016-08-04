@@ -27,6 +27,7 @@ html, body {
  	width: 100%;
  	height: 100%;
     overflow: hidden;
+    background: #222;
 }
 
 header {
@@ -474,7 +475,7 @@ footer {
 //        background-position: center;
         height: calc(100% - 40px);
 //        background-image: url(./images/0296E%20A4%201920.jpg) !important;
-        transition: background-image 0s;
+//        transition: background-image 0s;
     }
     
     header {

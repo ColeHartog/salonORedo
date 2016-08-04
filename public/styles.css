@@ -18,7 +18,8 @@ a:hover {
 html, body {
   width: 100%;
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #222; }
 
 header {
   width: 100%;
@@ -348,8 +349,7 @@ footer {
     display: none; }
   .mainSection {
     background-position: 68% 50%;
-    height: calc(100% - 40px);
-    transition: background-image 0s; }
+    height: calc(100% - 40px); }
   header {
     height: 40px; }
   #logo {
