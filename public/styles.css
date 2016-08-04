@@ -388,7 +388,7 @@ footer {
     top: 20px;
     left: 5vw;
     width: 90vw !important;
-    max-height: calc(100% - 150px);
+    max-height: calc(100% - 125px);
     font-size: 24px;
     overflow-y: scroll;
     padding-left: 0px;
