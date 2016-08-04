@@ -331,6 +331,9 @@ footer {
   background-position: right;
   background-size: cover; }
 
+#appMobileFlexDir {
+  display: flex; }
+
 @media (max-height: 830px) {
   .infoBox {
     top: 50px;
@@ -401,13 +404,11 @@ footer {
         transform: translateY(0%);
         padding-bottom: 40px; }
   #appMobileFlexDir {
-    flex-direction: column;
+    display: block;
     height: calc(100% - 150px); }
-  .appFlex {
-    display: block; }
-    .appFlex svg {
-      width: 100px;
-      height: 100px; }
+  .appFlex svg {
+    width: 100px;
+    height: 100px; }
   .appFlex:first-of-type {
     border-right: 0;
     padding-bottom: 30px;
