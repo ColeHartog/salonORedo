@@ -336,10 +336,10 @@ footer {
 #appMobileFlexDir {
   display: flex; }
 
-#showbig {
+.showbig {
   display: inline-block; }
 
-#showsmall {
+.showsmall {
   display: none; }
 
 @media (max-height: 830px) {
@@ -501,13 +501,11 @@ footer {
   #productbox {
     min-width: 90vw;
     width: 90vw; }
-  #showbig {
+  .showbig {
     display: none; }
-  #showsmall {
+  .showsmall {
     display: inline-block; }
   .serviceItems {
     margin: 0 20px;
     line-height: 1.3;
-    padding: 10px 0; }
-  .serviceBox span {
-    font-size: 28px; } }
+    padding: 10px 0; } }

@@ -439,11 +439,11 @@ footer {
     display: flex;
 }
 
-#showbig {
+.showbig {
     display: inline-block;
 }
 
-#showsmall {
+.showsmall {
     display: none;
 }
 
@@ -734,11 +734,11 @@ footer {
         width: 90vw;
     }
     
-    #showbig {
+    .showbig {
         display: none;
     }
     
-    #showsmall {
+    .showsmall {
         display: inline-block;
     }
     
@@ -750,7 +750,7 @@ footer {
     
     .serviceBox {
         span {
-            font-size: 28px;
+//            font-size: 24px;
         }
     }
     
