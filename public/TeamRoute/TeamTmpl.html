@@ -11,7 +11,8 @@
             </svg>
         </span>
         <span>
-            <div class="stylistCard" ng-repeat="stylist in teamArray" style="background-image:url({{stylist.preview}}); left:{{leftPOS}}%" ng-click="selectStylist($index)">
+            <div class="stylistCard" ng-repeat="stylist in teamArray" style="left:{{leftPOS}}%" ng-click="selectStylist($index)">
+                <img src="{{stylist.preview}}">
                 <p>{{stylist.name}}</p>
             </div>
         </span>
@@ -29,7 +30,7 @@
     
     <section class="fadedBackdrop" ng-show="showInfo" ng-click="showInfo = false">
         <div id="selectedStylistCard">
-            <div>{{selectedStylist.name}}</div>
+            <div><span>{{selectedStylist.name}}</span></div>
             <section>
                 <span style="background-image:url({{selectedStylist.image}})"></span>
                 <div><span>{{selectedStylist.name}}</span></div>

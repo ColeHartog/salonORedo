@@ -124,13 +124,20 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
     
     $scope.move = function(direction){
         if(direction === "left"){
-            if($scope.leftPOS > -360){
+            if($scope.leftPOS >= -312){
                 $scope.leftPOS -= 104;
+            }
+            if($scope.leftPOS < -312){
+                $scope.leftPOS = -390;
             }
         }
         if(direction === "right"){
-            if($scope.leftPOS < 0){
-                $scope.leftPOS += 104;
+            if($scope.leftPOS === -390) {
+                $scope.leftPOS = -312;
+            }else{
+                if($scope.leftPOS < 0){
+                    $scope.leftPOS += 104;
+                }
             }
         }
     };
