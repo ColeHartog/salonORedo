@@ -7,7 +7,8 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Assistant'; }
+  font-family: 'Assistant';
+  font-weight: 100 !important; }
 
 a {
   text-decoration: none; }
