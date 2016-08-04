@@ -705,7 +705,7 @@ footer {
                 
                 span {
                     position: absolute;
-                    bottom: 0%;
+                    bottom: 20%;
                     left: 50%;
                     transform: translateX(-50%);
                     font-family: $JSO;
@@ -714,6 +714,7 @@ footer {
             
             span {
                 flex: 4.5;
+                background-size: contain !important;
             }
         }
     }
