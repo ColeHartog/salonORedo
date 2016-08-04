@@ -3,7 +3,7 @@
     <div class="infoBox">
         <p style="font-size: 24px">
             <a ng-repeat="item in Options" ng-click="selectOption(item)" style="font-size: 28px;">
-                <span style="font-family:Julius Sans One;" ng-if="$index !== 0">/</span> <span style="font-family:Julius Sans One;" ng-class="{selectedService: item === selected}">{{item.name}}</span>
+                <span style="font-family:Julius Sans One;" ng-if="$index !== 0">|</span> <span style="font-family:Julius Sans One;" ng-class="{selectedService: item === selected}">{{item.name}}</span>
             </a>
             <br><br>
             {{selected.info}}
