@@ -1,18 +1,18 @@
 $primary-color: #a5a0a4;
 $accent-color: #818285;
-
+$JSO: 'Julius Sans One';
 
 @font-face {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
 @font-face {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 * {
 	padding: 0;
 	margin: 0;
-    font-family: 'Raleway';
+    font-family: 'Assistant';
 }
 
 a {
@@ -65,7 +65,7 @@ footer {
         
         span {
             flex: 1;
-            font-family: 'Josefin Sans';
+            font-family: $JSO;
             position: relative;
             top: 50%;
             transform: translateY(-50%);
@@ -132,7 +132,7 @@ footer {
 .tabs {
     margin: 0 20px 0 0;
     color: #f1f1f1;
-    font-family: 'Josefin Sans';
+    font-family: $JSO;
     padding-top: 5px;
 }
 
@@ -154,7 +154,8 @@ footer {
 }
 
 .infoBox {
-    width: 700px;
+//    width: 700px;
+    width: 40%;
     max-height: calc(100% - 200px);
     position: relative;
     top: 150px;
@@ -276,7 +277,7 @@ footer {
     margin-left: 6%;
     margin-top: 2%;
     font-size: 44px;
-    font-weight: bold;
+//    font-weight: bold;
     color: $accent-color;
     transition: left .75s ease-in-out;
     cursor: pointer;
@@ -288,7 +289,7 @@ footer {
     p {
         text-align: center;
         width: 100%;
-        font-family: 'Josefin Sans'
+        font-family: $JSO
     }
 }
 
@@ -320,14 +321,15 @@ footer {
         height: 10%;
         text-align: center;
         font-size: 2.75em;
-        font-family: 'Josefin Sans';
-        font-weight: bold;
+        font-family: $JSO;
+//        font-weight: bold;
         text-align: left;
         
         span {
             border-bottom: 1px solid #f1f1f1;
             position: relative;
             left: 50%;
+            font-family: $JSO;
         }
     }
     
@@ -391,7 +393,7 @@ footer {
     width: 100%;
     height: 100%;
     color: #f1f1f1;
-    font-family: 'Josefin Sans';
+    font-family: $JSO;
     font-size: 28px;
     line-height: 1.3;
     padding-top: 10%;
@@ -632,6 +634,10 @@ footer {
         div {
             height: auto;
             display: none;
+            
+            span {
+                font-family: $JSO;
+            }
         }
         
         section {
@@ -649,6 +655,7 @@ footer {
                     bottom: 0%;
                     left: 50%;
                     transform: translateX(-50%);
+                    font-family: $JSO;
                 }
             }
             
