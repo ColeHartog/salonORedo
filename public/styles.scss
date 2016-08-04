@@ -422,7 +422,7 @@ footer {
     .infoBox {
         top: 50px;
         left: 50px;
-        max-height: calc(100% - 200px);
+        max-height: calc(100% - 200px); 
     }
 }
 
@@ -433,6 +433,10 @@ footer {
                 font-size: 1em;
             }
         }
+    }
+    
+    .tabs {
+        font-size: 24px;
     }
 }
 
@@ -446,7 +450,7 @@ footer {
     }
     
     .tabs {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 

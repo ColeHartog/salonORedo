@@ -326,13 +326,15 @@ footer {
 
 @media (max-width: 1682px) {
   footer section span {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .tabs {
+    font-size: 24px; } }
 
 @media (max-width: 1412px) {
   footer section span {
     font-size: .8em; }
   .tabs {
-    font-size: 24px; } }
+    font-size: 20px; } }
 
 @media (max-width: 1236px) {
   .tabs {
