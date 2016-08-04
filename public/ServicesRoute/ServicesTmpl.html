@@ -3,7 +3,7 @@
     <div class="infoBox">
         <p>Our mission is to achieve a high level of well -being for our guests through the integrity of our art.</p>
         <br>
-        <div class="serviceBox" style="padding: 0 20px;">
+        <div class="serviceBox">
             <span class="servicesNames" ng-repeat="service in Services" ng-click="SelectService(service)">
                 <span class="showbig" ng-if="$index !== 0">|</span>
                 <span class="showsmall" ng-if="$index !== 0 && $index%2 !== 0">|</span> <span ng-class="{selectedService: service === Selected}">{{service}}</span>
