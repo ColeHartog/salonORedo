@@ -11,15 +11,22 @@ angular.module("salono").controller("mainCtrl", ["$scope", "mainSvc", function($
         "./images/0732E%20A1%201920.jpg"
     ];
     
-    $scope.currentImage = $scope.imagesArray[0];
+    var index = 1;
+    $scope.currentImage = $scope.imagesArray[index-1];
     
     setInterval(function(){
-        if($scope.imagesArray.indexOf($scope.currentImage) !== $scope.imagesArray.length - 1){
-            $scope.currentImage = $scope.imagesArray[$scope.imagesArray.indexOf($scope.currentImage)+1];
+        if(index % 2 === 0){
+            document.getElementById("maincat").style.backgroundImage = "url("+$scope.imagesArray[index-1]+")";
+            document.getElementById("copycat").style.opacity = 0;
         }else{
-            $scope.currentImage = $scope.imagesArray[0];
+            document.getElementById("copycat").style.backgroundImage = "url("+$scope.imagesArray[index-1]+")";
+            document.getElementById("copycat").style.opacity = 1;
         }
-        $scope.$apply();
+        if(index === 8){
+            index = 1;
+        }else{
+            index++;
+        }
     }, 5000);
     
     $scope.showSideBar = false;
