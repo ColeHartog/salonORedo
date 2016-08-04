@@ -418,6 +418,10 @@ footer {
     color: rgba(241,241,241,.25);
 }
 
+#productbox {
+    min-width: 700px;
+}
+
 @media (max-height: 830px) {
     .infoBox {
         top: 50px;
@@ -605,7 +609,7 @@ footer {
             background-position: top;
             background-size: cover;
             width: 90%;
-            height: 420px;
+            height: auto;
             position: relative;
             left: 0%;
             margin-left: 5%;
@@ -613,15 +617,12 @@ footer {
             margin-bottom: 50px;
             
             p {
+                position: absolute;
+                bottom: 10px;
+                padding-top: 20px;
                 width: 100%;
                 height: 60px;
-                bottom: 0;
                 background-color: rgba(2,2,2,.8);
-                text-shadow:
-                    -1px -1px 0 #222,
-                    1px -1px 0 #222,
-                    -1px 1px 0 #222,
-                    1px 1px 0 #222; 
             }
         }
         
@@ -670,6 +671,11 @@ footer {
                 flex: 4.5;
             }
         }
+    }
+    
+    #productbox {
+        min-width: 90vw;
+        width: 90vw;
     }
     
 }
