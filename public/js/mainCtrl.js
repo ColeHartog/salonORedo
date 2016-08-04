@@ -11,16 +11,16 @@ angular.module("salono").controller("mainCtrl", ["$scope", "mainSvc", function($
         "./images/0732E%20A1%201920.jpg"
     ];
     
-    var index = 1;
+    var index = 2;
     $scope.currentImage = $scope.imagesArray[index-1];
     
     setInterval(function(){
         if(index % 2 === 0){
-            document.getElementById("maincat").style.backgroundImage = "url("+$scope.imagesArray[index-1]+")";
-            document.getElementById("copycat").style.opacity = 0;
-        }else{
             document.getElementById("copycat").style.backgroundImage = "url("+$scope.imagesArray[index-1]+")";
             document.getElementById("copycat").style.opacity = 1;
+        }else{
+            document.getElementById("maincat").style.backgroundImage = "url("+$scope.imagesArray[index-1]+")";
+            document.getElementById("copycat").style.opacity = 0;
         }
         if(index === 8){
             index = 1;
