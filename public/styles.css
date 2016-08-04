@@ -10,7 +10,9 @@
   font-family: 'Assistant'; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit; }
 
 a:hover {
   cursor: pointer; }
