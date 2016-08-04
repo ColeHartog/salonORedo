@@ -661,11 +661,16 @@ footer {
             margin-top: 0;
             margin-bottom: 50px;
             
+            img {
+                width: 75%;
+            }
+            
             p {
                 position: absolute;
                 bottom: 10px;
+                left: 12.5%;
                 padding-top: 20px;
-                width: 100%;
+                width: 75%;
                 height: 60px;
                 background-color: rgba(2,2,2,.8);
             }

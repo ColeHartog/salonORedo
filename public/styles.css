@@ -455,11 +455,14 @@ footer {
       margin-left: 5%;
       margin-top: 0;
       margin-bottom: 50px; }
+      #teamHolder .stylistCard img {
+        width: 75%; }
       #teamHolder .stylistCard p {
         position: absolute;
         bottom: 10px;
+        left: 12.5%;
         padding-top: 20px;
-        width: 100%;
+        width: 75%;
         height: 60px;
         background-color: rgba(2, 2, 2, 0.8); }
     #teamHolder .stylistCard:last-of-type {
