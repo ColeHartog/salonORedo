@@ -389,12 +389,11 @@ footer {
         transform: translateY(0%);
         padding-bottom: 40px; }
   #appMobileFlexDir {
-    flex-direction: column; }
-  .appFlex {
-    font-size: 18px; }
-    .appFlex svg {
-      width: 100px;
-      height: 100px; }
+    flex-direction: column;
+    height: calc(100% - 150px); }
+  .appFlex svg {
+    width: 100px;
+    height: 100px; }
   .appFlex:first-of-type {
     border-right: 0;
     padding-bottom: 30px;

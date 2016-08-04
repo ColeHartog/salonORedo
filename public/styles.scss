@@ -554,12 +554,12 @@ footer {
     
     #appMobileFlexDir {
         flex-direction: column;
-//        height: 60vh;
+        height: calc(100% - 150px);
     }
     
     .appFlex {
         
-        font-size: 18px;
+//        font-size: 18px;
         
         svg {
             width: 100px;
