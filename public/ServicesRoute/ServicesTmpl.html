@@ -5,7 +5,8 @@
         <br>
         <div class="serviceBox" style="padding: 0 40px">
             <span class="servicesNames" ng-repeat="service in Services" ng-click="SelectService(service)">
-                <span ng-if="$index !== 0">|</span> <span ng-class="{selectedService: service === Selected}">{{service}}</span>
+                <span id="showbig" ng-if="$index !== 0">|</span>
+                <span id="showsmall" ng-if="$index !== 0 && $index%2 !== 0">|</span> <span ng-class="{selectedService: service === Selected}">{{service}}</span>
             </span>
         </div>
         <br>

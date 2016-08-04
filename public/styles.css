@@ -334,6 +334,12 @@ footer {
 #appMobileFlexDir {
   display: flex; }
 
+#showbig {
+  display: inline-block; }
+
+#showsmall {
+  display: none; }
+
 @media (max-height: 830px) {
   .infoBox {
     top: 50px;
@@ -485,4 +491,8 @@ footer {
         flex: 4.5; }
   #productbox {
     min-width: 90vw;
-    width: 90vw; } }
+    width: 90vw; }
+  #showbig {
+    display: none; }
+  #showsmall {
+    display: inline-block; } }
