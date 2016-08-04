@@ -348,7 +348,8 @@ footer {
     display: none; }
   .mainSection {
     background-position: 68% 50%;
-    height: calc(100% - 40px); }
+    height: calc(100% - 40px);
+    transition: background-image 0s; }
   header {
     height: 40px; }
   #logo {

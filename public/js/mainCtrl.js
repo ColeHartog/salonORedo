@@ -1,21 +1,5 @@
 angular.module("salono").controller("mainCtrl", ["$scope", "mainSvc", function($scope, mainSvc){
     
-    $scope.iphonefix = function(){
-        
-        var div = document.createElement('div'),
-        ref = document.getElementsByTagName('base')[0] || 
-              document.getElementsByTagName('script')[0];
-
-        div.innerHTML = '&shy;<style> iframe { visibility: hidden; } </style>';
-
-        ref.parentNode.insertBefore(div, ref);
-
-        window.onload = function() {
-            div.parentNode.removeChild(div);
-        }
-    }();
-    
-    
     $scope.imagesArray = [
         "./images/0296E%20A4%201920.jpg",
         "./images/2236E%20A2v2%201920.jpg",
