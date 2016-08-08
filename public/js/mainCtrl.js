@@ -17,10 +17,16 @@ angular.module("salono").controller("mainCtrl", ["$scope", "mainSvc", function($
     setInterval(function(){
         if(index % 2 === 0){
             document.getElementById("copycat").style.backgroundImage = "url("+$scope.imagesArray[index-1]+")";
-            document.getElementById("copycat").style.opacity = 1;
+            console.log("change");
+            setTimeout(function(){
+                document.getElementById("copycat").style.opacity = 1;
+                console.log('update');
+            }, 2000);
         }else{
             document.getElementById("maincat").style.backgroundImage = "url("+$scope.imagesArray[index-1]+")";
-            document.getElementById("copycat").style.opacity = 0;
+            setTimeout(function(){
+                 document.getElementById("copycat").style.opacity = 0;
+            }, 2000);
         }
         if(index === 8){
             index = 1;

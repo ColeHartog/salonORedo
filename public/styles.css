@@ -205,7 +205,8 @@ footer {
     flex: 8;
     overflow: hidden;
     white-space: nowrap;
-    padding-top: 20px; }
+    padding-top: 20px;
+    padding-left: 5px; }
 
 .stylistCard {
   background-repeat: no-repeat;
@@ -216,7 +217,8 @@ footer {
   display: inline-block;
   position: relative;
   left: 0%;
-  margin-left: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
   margin-top: 2%;
   font-size: 44px;
   color: #818285;
