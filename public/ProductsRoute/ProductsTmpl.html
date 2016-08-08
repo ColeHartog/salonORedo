@@ -5,7 +5,7 @@
         <br>
         <div class="serviceBox">
             <span class="servicesNames" ng-repeat="product in Products" ng-click="SelectProduct(product)">
-            <span ng-if="$index !== 0">/</span> <span ng-class="{selectedService: product === Selected}">{{product}}</span>
+            <span ng-if="$index !== 0">|</span> <span ng-class="{selectedService: product === Selected}">{{product}}</span>
             </span>
         </div>
         <br>
