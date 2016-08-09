@@ -31,6 +31,6 @@ mongoose.connection.once("open", function(){
 	console.log("Connected to Mongodb\n");
 });
 
-app.listen(3141, function(){
-	console.log("\nListening on Port 3141");
+app.listen(80, function(){
+	console.log("\nListening on Port 80");
 });
