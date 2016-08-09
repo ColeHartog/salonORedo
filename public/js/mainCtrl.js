@@ -21,12 +21,12 @@ angular.module("salono").controller("mainCtrl", ["$scope", "mainSvc", function($
             setTimeout(function(){
                 document.getElementById("copycat").style.opacity = 1;
 //                console.log('update');
-            }, 3900);
+            }, 3500);
         }else{
             document.getElementById("maincat").style.backgroundImage = "url("+$scope.imagesArray[index-1]+")";
             setTimeout(function(){
                  document.getElementById("copycat").style.opacity = 0;
-            }, 3900);
+            }, 3500);
         }
         if(index === 8){
             index = 1;
