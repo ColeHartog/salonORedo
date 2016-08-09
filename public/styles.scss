@@ -759,9 +759,9 @@ footer {
     
     #teamHolder {
         
-        width: 90%;
+        width: 60%;
         height: 90%;
-        left: 5%;
+        left: 20%;
         
         span:first-of-type, span:last-of-type {
             display: none;
@@ -802,6 +802,10 @@ footer {
             }
         }
         
+        .stylistCard:first-of-type {
+            margin-top: 30px;
+        }
+        
         .stylistCard:last-of-type {
             margin-bottom: -20%;
         }
@@ -812,6 +816,11 @@ footer {
 @media(max-width: 500px) {
     .infoBox {
         width: 90% !important;
+        left: 5%;
+    }
+    
+    #teamHolder {
+        width: 90%;
         left: 5%;
     }
 }
