@@ -531,7 +531,7 @@ footer {
     }
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
     #tabsDiv {
         display: none;
     }
@@ -609,7 +609,7 @@ footer {
     }
     
     .productItems {
-        flex-direction: column;
+//        flex-direction: column;
         
         img {
             width: calc(100% - 40px);
@@ -764,6 +764,7 @@ footer {
     #productbox {
         min-width: 90vw;
         width: 90vw;
+//        height: 90%;
     }
     
     .showbig {
@@ -784,4 +785,14 @@ footer {
         padding: 0 20px;
     }
     
+}
+
+@media(max-width: 768px) {
+    .productItems {
+        flex-direction: column;
+    }
+    
+    #productbox {
+        height: auto;
+    }
 }

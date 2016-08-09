@@ -380,7 +380,7 @@ footer {
   .tabs {
     font-size: 16px; } }
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
   #tabsDiv {
     display: none; }
   .mainSection {
@@ -420,15 +420,13 @@ footer {
     padding: 20px 0; }
     .infoBox p {
       padding: 0 20px; }
-  .productItems {
-    flex-direction: column; }
-    .productItems img {
-      width: calc(100% - 40px);
-      margin-left: 20px; }
-    .productItems span p {
-      top: 20px;
-      transform: translateY(0%);
-      padding-bottom: 20px; }
+  .productItems img {
+    width: calc(100% - 40px);
+    margin-left: 20px; }
+  .productItems span p {
+    top: 20px;
+    transform: translateY(0%);
+    padding-bottom: 20px; }
   #appMobileFlexDir {
     display: block;
     max-height: calc(100% - 80px);
@@ -527,3 +525,9 @@ footer {
     padding: 10px 0; }
   .serviceBox {
     padding: 0 20px; } }
+
+@media (max-width: 768px) {
+  .productItems {
+    flex-direction: column; }
+  #productbox {
+    height: auto; } }
