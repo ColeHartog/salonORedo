@@ -811,6 +811,14 @@ footer {
         }
         
     }
+    
+    .productItems {
+        img {
+            width: calc(100% - 250px);
+            margin-left: 125px;
+        }
+    }
+    
 }
 
 @media(max-width: 500px) {
@@ -822,5 +830,12 @@ footer {
     #teamHolder {
         width: 90%;
         left: 5%;
+    }
+    
+    .productItems {
+        img {
+            width: calc(100% - 40px);
+            margin-left: 20px;
+        }
     }
 }

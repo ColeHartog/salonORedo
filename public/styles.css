@@ -534,7 +534,10 @@ footer {
     #teamHolder .stylistCard:first-of-type {
       margin-top: 30px; }
     #teamHolder .stylistCard:last-of-type {
-      margin-bottom: -20%; } }
+      margin-bottom: -20%; }
+  .productItems img {
+    width: calc(100% - 250px);
+    margin-left: 125px; } }
 
 @media (max-width: 500px) {
   .infoBox {
@@ -542,4 +545,7 @@ footer {
     left: 5%; }
   #teamHolder {
     width: 90%;
-    left: 5%; } }
+    left: 5%; }
+  .productItems img {
+    width: calc(100% - 40px);
+    margin-left: 20px; } }
