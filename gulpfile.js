@@ -9,9 +9,9 @@ gulp.task("sass", function(){
 });
 
 gulp.task("minify-css", function(){
-    return gulp.src('styles/*.css')
-    .pipe(cleanCSS({}))
-    .pipe(gulp.dest('dist'));
+    return gulp.src('./public/styles.css')
+    .pipe(cleanCSS())
+    .pipe(gulp.dest('./public'));
 });
 
 gulp.task("watch", function(){
