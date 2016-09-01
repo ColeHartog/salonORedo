@@ -18,7 +18,8 @@ a:hover {
   cursor: pointer; }
 
 h1, h2, h3, h4, h5, h6 {
-  display: none; }
+  opacity: 0;
+  height: 0; }
 
 html, body {
   width: 100%;
