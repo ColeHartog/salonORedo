@@ -29,12 +29,12 @@
     <header>
         <img id="logo" src="./images/longlogoedits.png" alt="Salon O Logo">
         <div id="tabsDiv">
-            <span class="tabs" ui-sref="Home" ui-sref-active="currentPage">HOME</span>
-            <span class="tabs" ui-sref="About" ui-sref-active="currentPage">ABOUT</span>
-            <span class="tabs" ui-sref="Appointments" ui-sref-active="currentPage">APPOINTMENTS</span>
-            <span class="tabs" ui-sref="Services" ui-sref-active="currentPage">SERVICES</span>
-            <span class="tabs" ui-sref="Team" ui-sref-active="currentPage">TEAM</span>
-            <span class="tabs" ui-sref="Products" ui-sref-active="currentPage">PRODUCTS</span>
+            <span class="tabs" ui-sref="Home" ui-sref-active="currentPage"><h2>Home</h2>HOME</span>
+            <span class="tabs" ui-sref="About" ui-sref-active="currentPage"><h2>About</h2>ABOUT</span>
+            <span class="tabs" ui-sref="Appointments" ui-sref-active="currentPage"><h2>Appointments</h2>APPOINTMENTS</span>
+            <span class="tabs" ui-sref="Services" ui-sref-active="currentPage"><h2>Services</h2>SERVICES</span>
+            <span class="tabs" ui-sref="Team" ui-sref-active="currentPage"><h2>Team</h2>TEAM</span>
+            <span class="tabs" ui-sref="Products" ui-sref-active="currentPage"><h2>Products</h2>PRODUCTS</span>
         </div>
         <div id="hamburgerIcon" ng-click="showSideBar = true" ng-hide="showSideBar">
              <svg width="30px" height="40px" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -68,7 +68,7 @@
             </svg>
         </div>
     </header>
-    <h1>Salon O SLC</h1>
+    <h1>Salon O</h1>
     <ui-view></ui-view>
     
     <div id="sideBar" ng-show="showSideBar">
