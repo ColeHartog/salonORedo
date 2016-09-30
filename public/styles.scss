@@ -94,16 +94,24 @@ footer {
                 width: 50px;
             }
 
-            svg #facebook, svg #instagram {
+            svg #facebook, svg #instagram, svg #google, svg #yelp{
                 transition: all .5s ease;
             }
 
             svg:hover #facebook{
-                fill: dodgerblue;
+                fill: #2196F3;
             }
 
             svg:hover #instagram{
-                fill: darkorange;
+                fill: #FF9800;
+            }
+            
+            svg:hover #google{
+                fill: #4CAF50;
+            }
+            
+            svg:hover #yelp{
+                fill: #F44336;
             }
         }
         

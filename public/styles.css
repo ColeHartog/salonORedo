@@ -71,12 +71,16 @@ footer {
         cursor: pointer;
         height: 50px;
         width: 50px; }
-      footer section a svg #facebook, footer section a svg #instagram {
+      footer section a svg #facebook, footer section a svg #instagram, footer section a svg #google, footer section a svg #yelp {
         transition: all .5s ease; }
       footer section a svg:hover #facebook {
-        fill: dodgerblue; }
+        fill: #2196F3; }
       footer section a svg:hover #instagram {
-        fill: darkorange; }
+        fill: #FF9800; }
+      footer section a svg:hover #google {
+        fill: #4CAF50; }
+      footer section a svg:hover #yelp {
+        fill: #F44336; }
 
 #logo {
   max-height: 200px;
