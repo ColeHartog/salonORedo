@@ -464,7 +464,19 @@ footer {
     display: none;
 }
 
-
+#stylistSpecialties {
+    font-size: 1.5em;
+    width: calc(100% - 10px);
+    margin-left: -10px;
+    padding: 0 10px 10px 20px;
+    background-color: inherit;
+    color: $accent-color;
+    spec {
+//        font-size: 1.75em;
+        font-weight: bold;
+        color: $primary-color;
+    }
+}
 
 
 

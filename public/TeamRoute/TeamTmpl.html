@@ -37,6 +37,9 @@
                 <div><span>{{selectedStylist.name}}</span></div>
                 <span>{{selectedStylist.bio}}</span>
             </section>
+            <p id="stylistSpecialties" ng-if="selectedStylist.specialties">
+                <spec>Specializes in: </spec> &nbsp;&nbsp; {{selectedStylist.specialties}}
+            </p>
         </div>
     </section>
 </section>
