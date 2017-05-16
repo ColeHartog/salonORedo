@@ -57,13 +57,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I began in the hair industry in 1994. \n\nFavorite advanced training: Vidal Sassoon Precision Cutting Classes. The precision cutting techniques I acquired are the foundation for any cut, structured or not. \n\nWhy the hair industry: Because you have the freedom to be creative. \n\nThree favorite things: \n·      Dinner parties. \n·      Friends. \n·      Being active. \n\nMost unlikely inspiration: My grandmother.",
             specialties: "Classic Cuts & Colors, Short Cuts"
         },
-        {
+        /*{
             name: "Kat L",
             preview: "./images/Team/KatL.jpg",
             image: "./images/Team/KatL-Large.jpg",
             bio: "Years in the industry: I’ve been in the industry since 2002. \n\nFavorite advanced training: While I have loved every opportunity I’ve had for continuing education, the most valuable education experience has been my Vidal Sassoon class. It changed my entire view on haircuts. Foundationally, my cuts have become cleaner and more precise. Classic haircuts are the most difficult to achieve, and Vidal equipped me with the tools to better shape and mold my client’s cuts. \n\nWhy the hair industry: Initially I chose to join the industry, because I was curious about how I could keep my hair healthy, while still being creative. I realized I was drawn to the science behind it. I love knowing what is occurring when our hair changes, chemically or naturally, as well as knowing what products are the best based on ingredients and lifestyle. This industry is constantly changing and so are products and techniques, which keeps me excited and motivated to be at my best. \n\nThree favorite things:\n·      Recreational Activities: hiking, biking and camping.\n·      Good food, friends and whiskey.\n·      Educating myself, both in a traditional and non-traditional manner.\n\nMost unlikely inspiration: Things that inspire me to be creative and innovative come from different places, but one of my favorite inspirations is nature. Watching and experiencing a season helps me view things differently. The color and shapes that I see from my environment help me to think beyond the current trends. I love that no two things in nature are the same.",
             specialties: "Classic Styling, Contemporary Cuts, Short Cuts, Natural Color, Event Styling"
-        },
+        },*/
         {
             name: "Kathryne",
             preview: "./images/Team/Kathryne.jpg",
@@ -71,7 +71,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "How many years in the industry: Since 2000.\n\nFavorite advanced training: My sugaring certification by far. Having that skill under my belt has provided me with a valuable niche in the industry.\n\nWhy the esthetics industry: Umm, initially it began as a backup plan for my future career as a struggling artist. Turns out I’m much better at esthetics than I am at painting or struggling.\n\nThree favorite things:\n·      A freshly made bed (a true rarity in my house).\n·      Snack foods possessing equal parts salty, sweet, crunchy, chewy.\n·      Spending time with my husband and little boys… of course!\n\nMost unlikely inspiration: Any song that I can’t help listening to continuously until it permanently infiltrates my brain. The song is ever changing.",
             specialties: "Microblading, Sugaring, Waxing, Brows"
         },
-        {
+        /*{
             name: "Kennedy",
             preview: "./images/Team/Kennedy.jpg",
             image: "./images/Team/Kennedy-Large.jpg",
@@ -84,7 +84,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/Margo-Large.jpg",
             bio: "Years in the industry: I began my career in 2007 as an apprentice at Yosh For Hair/Gina Khan Salon in San Francisco, CA. While there, I specialized in cutting and advanced to the position of Artistic Director.\n\nFavorite advanced training: My most valuable training has come from my extremely talented mentors. I am very fortunate to have been trained by some of the most respected names in the industry. I also love working backstage at shows, such as Intercoiffure Fall Atelier Show in New York City, because of the fast-paced, fiercely energetic environment.\n\nWhy the hair industry: It started with a desire to create beautiful hair, but what I love most about the industry is the connections it brings. Some of my favorite relationships are ones that were created through the industry. People who started out as mentors, co-workers and clients, are some of my best friends.\n\nThree favorite things: \n·      My family. \n·      Laughing untill you get the giggles. \n·      Warm sheets fresh out of the dryer.\n\nMost unlikely inspiration: I love to travel and am always intrigued by the subtle differences in how culture influence fashion and style. Also, 80′s hair bands.",
             specialties: "Cutting, Design & Shape Specialist"
-        },
+        },*/
         {
             name: "Marquee",
             preview: "./images/Team/Marquee.jpg",
@@ -105,12 +105,12 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I’ve been in the industry since 2008.\n\nFavorite advanced training: Cirque de Soleil Wig Styling Class in Las Vegas. It was so much fun and and so different from anything else I had attended.\n\nWhy the hair industry: Growing up my grandpa owned a hair salon. I always admired the way he worked, the pride he took in his craft and how he was able to take care of his family. I wanted that for myself. I also wanted to learn how he gave my Korean grandma the perfect, platinum, mean beehive.\n\nThree favorite things:\n·      Family (including friends and dogs).\n·      Whiskey.\n·      Collecting Records.\n\nMost unlikely inspiration: My biggest inspiration is my coworkers. I know it’s not “unlikely,” but it’s very true. It’s incredibly inspiring to watch them work. There is a wealth of knowledge at Salon O, and I am lucky to be surrounded by such talent and passion for their craft.",
             specialties: "Color, Balayage, Red & Copper Color, Blowouts"
         },
-        {
+        /*{
             name: "Olivia",
             preview: "./images/Team/Olivia.jpg",
             image: "./images/Team/Olivia-Large.jpg",
             bio: "Years in the industry: I’ve been in the industry since 2009.\n\nFavorite advanced training: Trifecta 2015. I was able to travel to Seattle to join fellow stylists for a weekend of inspiration, education and fun.\n\nWhy the hair industry: I had excelled in math and science in high school, and when I graduated I felt overwhelmed with the opportunities and options in front of me. Originally, I chose to join the industry as a way to help support myself as I ventured through college. I was not the typical stylist who had interest at a very young age. It actually took a few years of being behind the chair for me to realize that this industry was where my passion lies. It started as a means to the end, and although I plan to complete my degree, it transitioned into my new “end.”\n\nThree favorite things:\n·      Education (be it within the industry or not).\n·      Family.\n·      Food.\n\nMost unlikely inspiration: Chemistry and an unhealthy love for Calculus. I studied Analytical Chemistry and Organic Chemistry in college and have found parallels between these areas and the art of hair. The chemical makeup of haircare products/color and the logistics of how and why they work fascinate me. It is a goal of mine to continue to gain a greater understanding of the science behind hair well enough to develop my own line."
-        },
+        },*/
         {
             name: "Renee",
             preview: "./images/Team/Renee.jpg",
@@ -118,11 +118,17 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I started my my hair journey in 2012.\n\nFavorite advanced training: Assisting other stylists has been my favorite thus far. Having been lucky enough to have had the opportunity to assist for stylists in Utah and California I observed different artistic approaches to each hair service requested. This taught me to be open and think outside of the box.\n\nWhy the hair industry: I’ve always been an artist and I’ve always loved interacting and learning from people with a different perspective than mine. Being a hair stylist provides me the opportunity to participate in both of those worlds. ”\n\nThree favorite things:\n·      Family.\n·      Coffee.\n·      The beach.\n\nMost unlikely inspiration: I often find myself driving around taking in the colors and shapes around me. A building, a park, cars….. whatever it is I am intrigued how they all play together visually."
         },
         {
-            name: "Sarah",
+            name: "Sarah A",
             preview: "./images/Team/Sarah.jpg",
             image: "./images/Team/Sarah-Large.jpg",
             bio: "Bio coming soon",
             specialties: "Classic & Precise Shapes, Balayage, Dry Cuts, Bobs, Long Lengths"
+        },
+        {
+            name: "Sarah B",
+            preview: "./images/Team/Sarah-B.jpg",
+            image: "./images/Team/Sarah-B-Large.jpg",
+            bio: "Years in the industry: I began my stylist career as an apprentice in 2014..\n\nThe business of balayage. I love hair painting and this course fine-tuned my techniques that I use everyday to create flawless transition of color dimension. \n\nWhy the hair industry:  I am a very creative and visual individual. I love expressing my creativity through hair and witnessing how that makes my clients feel beautiful is a privilege. ”\n\nThree favorite things:\n·      Outdoor recreation.\n·      Experiencing new adventures: whether it be food, people, travel, or a new outdoor activity.\n·      Friend and family.\n\nMost unlikely inspiration: Music: there are so many different genres that constantly surround and inspire me."
         },
         {
             name: "Shandra",
