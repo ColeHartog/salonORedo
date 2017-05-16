@@ -85,12 +85,12 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I began my career in 2007 as an apprentice at Yosh For Hair/Gina Khan Salon in San Francisco, CA. While there, I specialized in cutting and advanced to the position of Artistic Director.\n\nFavorite advanced training: My most valuable training has come from my extremely talented mentors. I am very fortunate to have been trained by some of the most respected names in the industry. I also love working backstage at shows, such as Intercoiffure Fall Atelier Show in New York City, because of the fast-paced, fiercely energetic environment.\n\nWhy the hair industry: It started with a desire to create beautiful hair, but what I love most about the industry is the connections it brings. Some of my favorite relationships are ones that were created through the industry. People who started out as mentors, co-workers and clients, are some of my best friends.\n\nThree favorite things: \n·      My family. \n·      Laughing untill you get the giggles. \n·      Warm sheets fresh out of the dryer.\n\nMost unlikely inspiration: I love to travel and am always intrigued by the subtle differences in how culture influence fashion and style. Also, 80′s hair bands.",
             specialties: "Cutting, Design & Shape Specialist"
         },*/
-        {
+        /*{
             name: "Marquee",
             preview: "./images/Team/Marquee.jpg",
             image: "./images/Team/Marquee-Large.jpg",
             bio: "Marquee is a recent graduate of the University of Utah where she majored in Communications with an emphasis in Broadcast Journalism. Aside from her position as a Front Desk Coordinator at Salon O, she is also an Assistant Sports Producer for a local television station. Outside of her career interests, she enjoys film and the outdoors."
-        },
+        },*/
         {
             name: "Monique",
             preview: "./images/Team/Monique.jpg",
@@ -151,11 +151,11 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
     
     $scope.move = function(direction){
         if(direction === "left"){
-            if($scope.leftPOS >= -312){
+            if($scope.leftPOS >= -208){
                 $scope.leftPOS -= 104;
             }
-            if($scope.leftPOS < -312){
-                $scope.leftPOS = -390;
+            if($scope.leftPOS < -208){
+                $scope.leftPOS = -312;
             }
         }
         if(direction === "right"){

@@ -25,12 +25,12 @@ app.use(function(req, res, next){
 app.post("/api/login", userCtrl.Login);
 app.get("/api/loggedin", userCtrl.LoggedIn);
 app.post("/api/register", userCtrl.RegisterNewLogin);
-
+/*
 mongoose.connect("mongodb://localhost:27017/salono");
 mongoose.connection.once("open", function(){
 	console.log("Connected to Mongodb\n");
 });
-
+*/
 app.listen(80, function(){
 	console.log("\nListening on Port 80");
 });
