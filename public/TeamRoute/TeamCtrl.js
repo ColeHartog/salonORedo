@@ -77,14 +77,14 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/Kennedy-Large.jpg",
             bio: "Years in the industry: I began my career in 2006 as an apprentice under Ann Stolworthy. Now a stylist, Salon O has helped cultivate me as a stylist and makeup artist.\n\nFavorite advanced training: Our team’s trip to Seattle for the Kevin Murphy Show. The classes focused on editorial work and current looks, which were both initial attractors for me to this industry.\n\nWhy the hair industry: I’m that girl who cut her own hair, her Barbie’s hair and over time this evolved into doing hair and makeup for every event possible. Looking back, I was always meant to be here.\n\nThree favorite things:\n·      Vintage shopping: I love the hunt for something that has been overlooked and under-loved.\n·      Cooking: Especially with friends and family. Good food always brings people together.\n·      Reading: I love how a great book can consume you.\n\nMost unlikely inspiration: Halloween: For me it’s about creating a character. I love the process of using hair, makeup and costumes in new ways, ways you never imagined.",
             specialties: "Color, Event Styling, Makeup Artistry, Brows"
-        },
+        },*/
         {
             name: "Margo",
             preview: "./images/Team/Margo.jpg",
             image: "./images/Team/Margo-Large.jpg",
             bio: "Years in the industry: I began my career in 2007 as an apprentice at Yosh For Hair/Gina Khan Salon in San Francisco, CA. While there, I specialized in cutting and advanced to the position of Artistic Director.\n\nFavorite advanced training: My most valuable training has come from my extremely talented mentors. I am very fortunate to have been trained by some of the most respected names in the industry. I also love working backstage at shows, such as Intercoiffure Fall Atelier Show in New York City, because of the fast-paced, fiercely energetic environment.\n\nWhy the hair industry: It started with a desire to create beautiful hair, but what I love most about the industry is the connections it brings. Some of my favorite relationships are ones that were created through the industry. People who started out as mentors, co-workers and clients, are some of my best friends.\n\nThree favorite things: \n·      My family. \n·      Laughing untill you get the giggles. \n·      Warm sheets fresh out of the dryer.\n\nMost unlikely inspiration: I love to travel and am always intrigued by the subtle differences in how culture influence fashion and style. Also, 80′s hair bands.",
             specialties: "Cutting, Design & Shape Specialist"
-        },*/
+        },
         /*{
             name: "Marquee",
             preview: "./images/Team/Marquee.jpg",
@@ -150,16 +150,16 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
     $scope.leftPOS = 0;
     
     $scope.move = function(direction){
-        if(direction === "left"){
-            if($scope.leftPOS >= -208){
+        console.log($scope.leftPOS);
+            if($scope.leftPOS >= -300){
                 $scope.leftPOS -= 104;
             }
-            if($scope.leftPOS < -208){
-                $scope.leftPOS = -312;
+            else if($scope.leftPOS < -300){
+                $scope.leftPOS = -338;
             }
         }
         if(direction === "right"){
-            if($scope.leftPOS === -390) {
+            if($scope.leftPOS === -338) {
                 $scope.leftPOS = -312;
             }else{
                 if($scope.leftPOS < 0){
