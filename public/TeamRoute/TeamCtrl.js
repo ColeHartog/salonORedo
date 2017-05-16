@@ -150,7 +150,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
     $scope.leftPOS = 0;
     
     $scope.move = function(direction){
-        console.log($scope.leftPOS);
+        if(direction === "left"){
             if($scope.leftPOS >= -300){
                 $scope.leftPOS -= 104;
             }
