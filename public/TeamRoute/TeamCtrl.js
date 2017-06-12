@@ -64,13 +64,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I’ve been in the industry since 2002. \n\nFavorite advanced training: While I have loved every opportunity I’ve had for continuing education, the most valuable education experience has been my Vidal Sassoon class. It changed my entire view on haircuts. Foundationally, my cuts have become cleaner and more precise. Classic haircuts are the most difficult to achieve, and Vidal equipped me with the tools to better shape and mold my client’s cuts. \n\nWhy the hair industry: Initially I chose to join the industry, because I was curious about how I could keep my hair healthy, while still being creative. I realized I was drawn to the science behind it. I love knowing what is occurring when our hair changes, chemically or naturally, as well as knowing what products are the best based on ingredients and lifestyle. This industry is constantly changing and so are products and techniques, which keeps me excited and motivated to be at my best. \n\nThree favorite things:\n·      Recreational Activities: hiking, biking and camping.\n·      Good food, friends and whiskey.\n·      Educating myself, both in a traditional and non-traditional manner.\n\nMost unlikely inspiration: Things that inspire me to be creative and innovative come from different places, but one of my favorite inspirations is nature. Watching and experiencing a season helps me view things differently. The color and shapes that I see from my environment help me to think beyond the current trends. I love that no two things in nature are the same.",
             specialties: "Classic Styling, Contemporary Cuts, Short Cuts, Natural Color, Event Styling"
         },*/
-        {
+        /*{
             name: "Kathryne",
             preview: "./images/Team/Kathryne.jpg",
             image: "./images/Team/Kathryne-Large.jpg",
             bio: "How many years in the industry: Since 2000.\n\nFavorite advanced training: My sugaring certification by far. Having that skill under my belt has provided me with a valuable niche in the industry.\n\nWhy the esthetics industry: Umm, initially it began as a backup plan for my future career as a struggling artist. Turns out I’m much better at esthetics than I am at painting or struggling.\n\nThree favorite things:\n·      A freshly made bed (a true rarity in my house).\n·      Snack foods possessing equal parts salty, sweet, crunchy, chewy.\n·      Spending time with my husband and little boys… of course!\n\nMost unlikely inspiration: Any song that I can’t help listening to continuously until it permanently infiltrates my brain. The song is ever changing.",
             specialties: "Microblading, Sugaring, Waxing, Brows"
-        },
+        },*/
         /*{
             name: "Kennedy",
             preview: "./images/Team/Kennedy.jpg",
@@ -154,9 +154,9 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             if($scope.leftPOS >= -300){
                 $scope.leftPOS -= 104;
             }
-            else if($scope.leftPOS < -300){
-                $scope.leftPOS = -338;
-            }
+ //           else if($scope.leftPOS < -300){
+ //               $scope.leftPOS = -338;
+ //           }
         }
         if(direction === "right"){
             if($scope.leftPOS === -338) {
