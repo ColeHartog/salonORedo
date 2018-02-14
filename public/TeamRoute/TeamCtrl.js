@@ -11,6 +11,12 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             specialties: "Long-lasting Cuts & Colors, Babylights, Gray-blending, Brows"
         },
         {
+            name: "Aubree",
+            preview: "./images/Team/Aubree.jpg",
+            image: "./images/Team/Aubree-Large.jpg",
+            bio: "Salon Coordinator."
+        },
+        {
             name: "Bethany",
             preview: "./images/Team/Bethany.jpg",
             image: "./images/Team/Bethany-Large.jpg",
@@ -19,7 +25,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
         },
         {
             name: "Brittney",
-            preview: "./images/Team/Brittney.jpg",
+            preview: "./images/Team/Brittney2.jpg",
             image: "./images/Team/Brittney-Large.jpg",
             bio: "Years in the industry: I began in 2006. \n\nFavorite advanced training: Great Lengths International extension course in Las Vegas and Kevin Murphy’s “The Big Show” in Seattle. So much fun! \n\nWhy the hair industry: For me the hair industry represents a creative outlet, a way for me to express my artistic side.  I love how my work challenges me to grow as a person and as a professional. \n\nThree favorite things: \n·      First would be my family. They are my stability and bring me happiness everyday. \n·      Second is sunshine! When the sun is shining I am happy. I love to be outside and feel the heat on my skin. \n·      Finally, I love great food, especially seafood. I would love to live near water and have fresh fish all the time! \n\nMost unlikely inspiration: I get a lot of my inspiration from nature. I feel like no matter what season, there is always something that catches my attention and brings out my imagination.",
             specialties: "Great Lengths Extensions, Colorist, Balayage, Men's Cuts"
@@ -41,7 +47,14 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             name: "Hillary",
             preview: "./images/Team/Hillary.jpg",
             image: "./images/Team/Hillary-Large.jpg",
-            bio: "Bio coming soon..."
+            bio: "Salon Coordinator."
+        },
+        {
+            name: "Isabelle",
+            preview: "./images/Team/Isabelle2.jpg",
+            image: "./images/Team/Isabelle-Large2.jpg",
+            bio: "Bio coming soon...",
+            specialties: "Lifts and lash extensions"
         },
         {
             name: "Jessica",
@@ -51,11 +64,18 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             specialties: "Color"
         },
         {
-            name: "Kat C",
+            name: "Kat",
             preview: "./images/Team/KatC.jpg",
             image: "./images/Team/KatC-Large.jpg",
             bio: "Years in the industry: I began in the hair industry in 1994. \n\nFavorite advanced training: Vidal Sassoon Precision Cutting Classes. The precision cutting techniques I acquired are the foundation for any cut, structured or not. \n\nWhy the hair industry: Because you have the freedom to be creative. \n\nThree favorite things: \n·      Dinner parties. \n·      Friends. \n·      Being active. \n\nMost unlikely inspiration: My grandmother.",
             specialties: "Classic Cuts & Colors, Short Cuts"
+        },
+        {
+            name: "Katie",
+            preview: "./images/Team/Katie.jpg",
+            image: "./images/Team/Katie-Large.jpg",
+            bio: "Years in the industry: I started my hair carrier in 2012.\n\nFavorite advanced training: My favorite advanced training was an editorial class from Chris Baran.  He showed us the behind the scenes of fashion week and avant-garde photo shoots.  We learned how to make wigs and hair pieces and also how to apply them by crocheting them into the hair or utilizing chicken wire to create the shape you wanted.  It’s not so glitz and glam after all!\n\nWhy the hair industry: I always wanted to be in the beauty industry from a very young age.  I would always beg my parents to buy me hair and makeup products from the grocery store (this started at about age 3) and they never understood why I wanted lipstick instead of a toy sometimes.  I love the fashion forward trends and the open mindedness of the community and how everyone is so welcoming.\n\nThree favorite things:\n·      Cats (followed by a Benadryl since I’m allergic).\n·      Strong coffee.\n·      Velvet.\n\nMost unlikely inspiration: Comedy.  Particularly stand up.  I love how someone can create content that is specifically meant to make people laugh and bring people together.  It’s a true talent to be able to create a laughable outcome out of a not so pleasant situation.  Being able to laugh about not only happy/hilarious things but also sad things uplifts the spirit and creates positivity as well as creativity.",
+//            specialties: "Alpha, Beta, Delta"
         },
         /*{
             name: "Kat L",
@@ -143,6 +163,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/Tabitha-Large.jpg",
             bio: "Years in the industry: I began my career in 2007.\n\nFavorite advanced training: The best part of my career is the constant training and education I receive from fellow stylists. I am inspired everyday I go to work, and that’s unbeatable advanced training.\n\nWhy the hair industry: In my early teenage years I would watch my mom get her hair done, and I would practice what I learned on friends. I went from an informal stylist to officially graduating from the top beauty school, Euphoria Institute in Las Vegas on the luckiest days of all, 07/07/07. Jackpot!!!\n\nThree favorite things:\n·      Family.\n·      Mountains.\n·      Music.\n\nMost unlikely inspiration: Architecture. I briefly studied architecture at UNLV, and the knowledge of geometry, color scheme and overall building design still inspires me.",
             specialties: "Free-Form Artistry, Naturally-Enhanced Color, Hair Talk Extensions, Style Transformations"
+        },
+        {
+            name: "Tonni",
+            preview: "./images/Team/Tonni.jpg",
+            image: "./images/Team/Tonni-Large.jpg",
+            bio: "Years in the industry: I have been in the industry since 2005.\n\nFavorite advanced training: Becoming a Certified Redken Color Artist. I Wanted to understand the theory of color like the back of my hand, memorize principles, learn the chemistry behind it all and become a mad scientist!\n\nWhy the hair industry: I have always been drawn to hair. Shapes, sizes, angles, measurements and what they can accentuate. Imagine color bringing all of those shapes and designs to life! It’s incredible seeing what that can do to a persons look and to a persons confidence level.\n\nThree favorite things:\n·      Drumming.\n·      Riding Motorcycles.\n·      Art.\n·      and for bonus points, the greatest thing of all... DOGS!\n\nMost unlikely inspiration: Watching someone put all their effort and trust into something not fearing what is on the other side. When I see someone working hard I want to do the same, it must be an energy thing, people are contagious.",
+            //specialties: "Alpha, Beta, Delta"
         }
         
     ];
@@ -154,12 +181,19 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             if($scope.leftPOS >= -300){
                 $scope.leftPOS -= 104;
             }
- //           else if($scope.leftPOS < -300){
- //               $scope.leftPOS = -338;
- //           }
+            else if($scope.leftPOS < -300){
+                $scope.leftPOS = -416;
+            }
+            // 312 base + 26 for each additional  tile
+//            else if($scope.leftPOS < -300){
+//                $scope.leftPOS = -338;
+//            }
         }
         if(direction === "right"){
-            if($scope.leftPOS === -338) {
+//            if($scope.leftPOS === -338) {
+//                $scope.leftPOS = -312;
+//            }
+            if($scope.leftPOS === -416) {
                 $scope.leftPOS = -312;
             }else{
                 if($scope.leftPOS < 0){
