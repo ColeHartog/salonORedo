@@ -173,7 +173,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
         }
         
     ];
-
+//   FILES NEED TO BE .jpeg (lower case)
     $scope.leftPOS = 0;
     
     $scope.move = function(direction){
@@ -184,7 +184,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             else if($scope.leftPOS < -300){
                 $scope.leftPOS = -416;
             }
-            // 312 base + 26 for each additional  tile
+            // 312 base + 26 for each additional tile
 //            else if($scope.leftPOS < -300){
 //                $scope.leftPOS = -338;
 //            }
