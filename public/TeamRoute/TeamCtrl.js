@@ -54,7 +54,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             preview: "./images/Team/Isabelle2.jpg",
             image: "./images/Team/Isabelle-Large2.jpg",
             bio: "Bio coming soon...",
-            specialties: "Lifts and lash extensions"
+            specialties: "Lash lifts and lash extensions"
         },
         {
             name: "Jessica",
@@ -74,8 +74,8 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             name: "Katie",
             preview: "./images/Team/Katie.jpg",
             image: "./images/Team/Katie-Large.jpg",
-            bio: "Years in the industry: I started my hair carrier in 2012.\n\nFavorite advanced training: My favorite advanced training was an editorial class from Chris Baran.  He showed us the behind the scenes of fashion week and avant-garde photo shoots.  We learned how to make wigs and hair pieces and also how to apply them by crocheting them into the hair or utilizing chicken wire to create the shape you wanted.  It’s not so glitz and glam after all!\n\nWhy the hair industry: I always wanted to be in the beauty industry from a very young age.  I would always beg my parents to buy me hair and makeup products from the grocery store (this started at about age 3) and they never understood why I wanted lipstick instead of a toy sometimes.  I love the fashion forward trends and the open mindedness of the community and how everyone is so welcoming.\n\nThree favorite things:\n·      Cats (followed by a Benadryl since I’m allergic).\n·      Strong coffee.\n·      Velvet.\n\nMost unlikely inspiration: Comedy.  Particularly stand up.  I love how someone can create content that is specifically meant to make people laugh and bring people together.  It’s a true talent to be able to create a laughable outcome out of a not so pleasant situation.  Being able to laugh about not only happy/hilarious things but also sad things uplifts the spirit and creates positivity as well as creativity.",
-//            specialties: "Alpha, Beta, Delta"
+            bio: "Years in the industry: I started my hair career in 2012.\n\nFavorite advanced training: My favorite advanced training was an editorial class from Chris Baran.  He showed us the behind the scenes of fashion week and avant-garde photo shoots.  We learned how to make wigs and hair pieces and also how to apply them by crocheting them into the hair or utilizing chicken wire to create the shape you wanted.  It’s not so glitz and glam after all!\n\nWhy the hair industry: I always wanted to be in the beauty industry from a very young age.  I would always beg my parents to buy me hair and makeup products from the grocery store (this started at about age 3) and they never understood why I wanted lipstick instead of a toy sometimes.  I love the fashion forward trends and the open mindedness of the community and how everyone is so welcoming.\n\nThree favorite things:\n·      Cats (followed by a Benadryl since I’m allergic).\n·      Strong coffee.\n·      Velvet.\n\nMost unlikely inspiration: Comedy.  Particularly stand up.  I love how someone can create content that is specifically meant to make people laugh and bring people together.  It’s a true talent to be able to create a laughable outcome out of a not so pleasant situation.  Being able to laugh about not only happy/hilarious things but also sad things uplifts the spirit and creates positivity as well as creativity.",
+            specialties: "Color, Blandes, Balayages"
         },
         /*{
             name: "Kat L",
