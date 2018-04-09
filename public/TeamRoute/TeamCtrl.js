@@ -27,8 +27,8 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             name: "Brittney",
             preview: "./images/Team/Brittney2.jpg",
             image: "./images/Team/Brittney-Large.jpg",
-            bio: "Years in the industry: I began in 2006. \n\nFavorite advanced training: Great Lengths International extension course in Las Vegas and Kevin Murphy’s “The Big Show” in Seattle. So much fun! \n\nWhy the hair industry: For me the hair industry represents a creative outlet, a way for me to express my artistic side.  I love how my work challenges me to grow as a person and as a professional. \n\nThree favorite things: \n·      First would be my family. They are my stability and bring me happiness everyday. \n·      Second is sunshine! When the sun is shining I am happy. I love to be outside and feel the heat on my skin. \n·      Finally, I love great food, especially seafood. I would love to live near water and have fresh fish all the time! \n\nMost unlikely inspiration: I get a lot of my inspiration from nature. I feel like no matter what season, there is always something that catches my attention and brings out my imagination.",
-            specialties: "Great Lengths Extensions, Colorist, Balayage, Men's Cuts"
+            bio: "Years in the industry: I began in 2006. \n\nFavorite advanced training: The Kevin Murphy Photo “Shoot Me” class in San Francisco. I loved the hands on experience of being able to create whatever I wanted and then have it photographed by a professional photographer.  It was a no judgement zone and I grew exponentially as an artist in those few days! \n\nWhy the hair industry: I’ve been in love with doing hair since I was a teenager. The creativity it allows me to connect still makes me excited to come to work. Everyday is something new and that keeps me growing and evolving. \n\nThree favorite things: \n·      Family \n·      Food \n·      Traveling \nMy family is everything. My husband and daughters support me in my dreams and push me to be better everyday. I love good food, experiencing new cuisines, thus far Asian is my favorite. To travel is to be free to me. I have a goal to see a new place every year. It brings me such joy and personal growth when I get to experience how other cultures live.\n\nMost unlikely inspiration: I get a lot of my inspiration from nature. I feel like no matter what season, there is always something that catches my attention and brings out my imagination.",
+            specialties: "I am so inspired by younger stylists and their drive to be better. It makes me think of new ways to push myself. Teaching my point of view to others has been so rewarding and inspiring and I really love hearing how they view things as well."
         },
         {
             name: "Devery",
@@ -38,17 +38,24 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             specialties: "Hair Talk Extensions, Blondes, Balayage"
         },
         {
+            name: "Emma",
+            preview: "./images/Team/Emma2.jpeg",
+            image: "./images/Team/Emma-Large2.jpeg",
+            bio: "Bio coming soon...",
+//            specialties: ""
+        },
+        {
             name: "Falecia",
             preview: "./images/Team/Falecia.png",
             image: "./images/Team/Falecia-Large.png",
             bio: "Years in the industry: I’ve been in the hair industry since 1994, and founded Salon O in 2005. \n\nFavorite advanced training: Ruth Roach at the RARE Academy in New York. I was excited to take a class from my hair hero, a platform artist that I had admired for years. She taught me to be bold and unafraid in creating a shape.\n\nWhy the hair industry: It was the energy. I started my career as a salon consultant, and I absolutely loved how walking into a positive, creative,  and fashion forward salon made me feel.\n\nThree favorite things:\n·      Music.\n·      People.\n·      Food.\n\nMost unlikely inspiration: Geometry. Math made me a better stylist. Haircuts are all about shape and dimension. I LOVE hair color, and to be a great colorist you have to know your color theory and formulate correctly. I’m a closet geek disguised as a stylist."
         },
-        {
-            name: "Hillary",
-            preview: "./images/Team/Hillary.jpg",
-            image: "./images/Team/Hillary-Large.jpg",
-            bio: "Salon Coordinator."
-        },
+//        {
+//            name: "Hillary",
+//            preview: "./images/Team/Hillary.jpg",
+//            image: "./images/Team/Hillary-Large.jpg",
+//            bio: "Salon Coordinator."
+//        },
         {
             name: "Isabelle",
             preview: "./images/Team/Isabelle2.jpg",
@@ -75,7 +82,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             preview: "./images/Team/Katie.jpg",
             image: "./images/Team/Katie-Large.jpg",
             bio: "Years in the industry: I started my hair career in 2012.\n\nFavorite advanced training: My favorite advanced training was an editorial class from Chris Baran.  He showed us the behind the scenes of fashion week and avant-garde photo shoots.  We learned how to make wigs and hair pieces and also how to apply them by crocheting them into the hair or utilizing chicken wire to create the shape you wanted.  It’s not so glitz and glam after all!\n\nWhy the hair industry: I always wanted to be in the beauty industry from a very young age.  I would always beg my parents to buy me hair and makeup products from the grocery store (this started at about age 3) and they never understood why I wanted lipstick instead of a toy sometimes.  I love the fashion forward trends and the open mindedness of the community and how everyone is so welcoming.\n\nThree favorite things:\n·      Cats (followed by a Benadryl since I’m allergic).\n·      Strong coffee.\n·      Velvet.\n\nMost unlikely inspiration: Comedy.  Particularly stand up.  I love how someone can create content that is specifically meant to make people laugh and bring people together.  It’s a true talent to be able to create a laughable outcome out of a not so pleasant situation.  Being able to laugh about not only happy/hilarious things but also sad things uplifts the spirit and creates positivity as well as creativity.",
-            specialties: "Color, Blandes, Balayages"
+            specialties: "Color, Blondes, Balayages"
         },
         /*{
             name: "Kat L",
@@ -135,20 +142,22 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             name: "Renae",
             preview: "./images/Team/Renae.jpg",
             image: "./images/Team/Renae-Large.jpg",
-            bio: "Years in the industry: I started my my hair journey in 2012.\n\nFavorite advanced training: Assisting other stylists has been my favorite thus far. Having been lucky enough to have had the opportunity to assist for stylists in Utah and California I observed different artistic approaches to each hair service requested. This taught me to be open and think outside of the box.\n\nWhy the hair industry: I’ve always been an artist and I’ve always loved interacting and learning from people with a different perspective than mine. Being a hair stylist provides me the opportunity to participate in both of those worlds.\n\nThree favorite things:\n·      Family.\n·      Coffee.\n·      The beach.\n\nMost unlikely inspiration: I often find myself driving around taking in the colors and shapes around me. A building, a park, cars… whatever it is I am intrigued how they all play together visually."
+            bio: "Years in the industry: I started my my hair journey in 2012.\n\nFavorite advanced training: Assisting other stylists has been my favorite thus far. Having been lucky enough to have had the opportunity to assist for stylists in Utah and California I observed different artistic approaches to each hair service requested. This taught me to be open and think outside of the box.\n\nWhy the hair industry: I’ve always been an artist and I’ve always loved interacting and learning from people with a different perspective than mine. Being a hair stylist provides me the opportunity to participate in both of those worlds.\n\nThree favorite things:\n·      Family.\n·      Coffee.\n·      The beach.\n\nMost unlikely inspiration: I often find myself driving around taking in the colors and shapes around me. A building, a park, cars… whatever it is I am intrigued how they all play together visually.",
+            specialties: "Men’s Cuts, Women’s Cuts, Long Lasting Natural Hair Color"
         },
         {
             name: "Sarah A",
             preview: "./images/Team/Sarah.jpg",
             image: "./images/Team/Sarah-Large.jpg",
-            bio: "Bio coming soon",
+            bio: "Years in the industry:  I have been in the salon industry since 2003.\n\nFavorite advanced training: Definitely the 5 days I spent at the Vidal Sassoon Academy in Santa Monica. Their cutting philosophy teaches he fundamentals of lines, shapes and layers, enabling the student to master any hair cut. \n\nWhy the hair industry: \n\nThree favorite things:\n·      My two amazing kids\n·      my hilarious husband\n·      and a very fulfilling career that I’m so grateful for.\n\nMost unlikely inspiration: The things I have failed at, taking risks and making mistakes is the only way to truly grow.",
             specialties: "Classic & Precise Shapes, Balayage, Dry Cuts, Bobs, Long Lengths"
         },
         {
             name: "Sarah B",
             preview: "./images/Team/Sarah-B.jpg",
             image: "./images/Team/Sarah-B-Large.jpg",
-            bio: "Years in the industry: I began my stylist career as an apprentice in 2014.\n\nFavorite advanced training: The business of balayage. I love hair painting and this course fine-tuned my techniques that I use everyday to create flawless transition of color dimension. \n\nWhy the hair industry:  I am a very creative and visual individual. I love expressing my creativity through hair and witnessing how that makes my clients feel beautiful is a privilege.\n\nThree favorite things:\n·      Outdoor recreation.\n·      Experiencing new adventures: whether it be food, people, travel, or a new outdoor activity.\n·      Friends and family.\n\nMost unlikely inspiration: Music - there are so many different genres that constantly surround and inspire me."
+            bio: "Years in the industry: I began my stylist career as an apprentice in 2014.\n\nFavorite advanced training: The business of balayage. I love hair painting and this course fine-tuned my techniques that I use everyday to create flawless transition of color dimension. \n\nWhy the hair industry:  I am a very creative and visual individual. I love expressing my creativity through hair and witnessing how that makes my clients feel beautiful is a privilege.\n\nThree favorite things:\n·      Outdoor recreation.\n·      Experiencing new adventures: whether it be food, people, travel, or a new outdoor activity.\n·      Friends and family.\n\nMost unlikely inspiration: Music - there are so many different genres that constantly surround and inspire me.",
+            specialties: "Hair Painting, Balayage & Blondes"
         },
         {
             name: "Shandra",
@@ -169,7 +178,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             preview: "./images/Team/Tonni.jpg",
             image: "./images/Team/Tonni-Large.jpg",
             bio: "Years in the industry: I have been in the industry since 2005.\n\nFavorite advanced training: Becoming a Certified Redken Color Artist. I Wanted to understand the theory of color like the back of my hand, memorize principles, learn the chemistry behind it all and become a mad scientist!\n\nWhy the hair industry: I have always been drawn to hair. Shapes, sizes, angles, measurements and what they can accentuate. Imagine color bringing all of those shapes and designs to life! It’s incredible seeing what that can do to a persons look and to a persons confidence level.\n\nThree favorite things:\n·      Drumming.\n·      Riding Motorcycles.\n·      Art.\n·      and for bonus points, the greatest thing of all... DOGS!\n\nMost unlikely inspiration: Watching someone put all their effort and trust into something not fearing what is on the other side. When I see someone working hard I want to do the same, it must be an energy thing, people are contagious.",
-            //specialties: "Alpha, Beta, Delta"
+            specialties: "Artistic Details to Haircuts, Color & Balayage"
         }
         
     ];
