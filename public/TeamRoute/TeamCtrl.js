@@ -11,6 +11,12 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             specialties: "Long-lasting Cuts & Colors, Babylights, Gray-blending, Brows"
         },
         {
+            name: "Anthony",
+            preview: "./images/Team/Anthony.jpg",
+            image: "./images/Team/Anthony-Large.jpg",
+            bio: "Years in the industry:  I began my hair journey in 2016. \n\nFavorite advanced training: Vidal Sassoon course in Santa Monica. It was 5 days of amazing, intense, intricate cutting. \n\nWhy the hair industry:  I knew when was I was a little boy I was born to be in this industry. Plus, I love meeting new people. \n\nThree favorite things: \n·      Dogs (all animals really) \n·      Plants  \n·      Traveling \n\nMost unlikely inspiration: My garden: all of tomorrows flowers begin with the seeds of today. I just love that nature provides such a beautiful color palette. The organic shape and kaleidoscope of color each plant  provides truly inspires my creativity.",
+        },
+        {
             name: "Aubree",
             preview: "./images/Team/Aubree.jpg",
             image: "./images/Team/Aubree-Large.jpg",

@@ -1,1 +1,761 @@
-@font-face{font-family:Assistant,sans-serif}@font-face{font-family:'Julius Sans One',sans-serif}*{padding:0;margin:0;font-family:Assistant}a{text-decoration:none;color:inherit;font-family:inherit}a:hover{cursor:pointer}h1,h2,h3,h4,h5,h6{height:0;width:0;opacity:0;display:inline-block}body,html{width:100%;height:100%;overflow:hidden;background:#222}header{width:100%;height:75px;position:relative;background-color:#a5a0a4;color:#222}footer{position:absolute;bottom:0;color:#f1f1f1;width:100%;padding:10px;display:flex;background-color:rgba(34,34,34,.85)}footer section{flex:1;text-align:center;display:flex;position:relative;height:25px}footer section span{flex:1;font-family:"Julius Sans One";position:relative;top:50%;transform:translateY(-50%);font-size:1.2em}footer section #spanSpacer{flex:4}footer section a{flex:1;height:25px}footer section a svg{transition:all .5s ease;position:relative;top:50%;transform:translateY(-50%)}footer section a svg:hover{cursor:pointer;height:50px;width:50px}footer section a svg #facebook,footer section a svg #google,footer section a svg #instagram,footer section a svg #yelp{transition:all .5s ease}footer section a svg:hover #facebook{fill:#2196f3}footer section a svg:hover #instagram{fill:#ff9800}footer section a svg:hover #google{fill:#4caf50}footer section a svg:hover #yelp{fill:#f44336}#logo{max-height:200px;width:400px;position:relative;top:50%;left:20px;transform:translateY(-50%)}#tabsDiv{display:inline-block;position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:30px}.tabs{margin:0 20px 0 0;color:#f1f1f1;font-family:"Julius Sans One";padding-top:5px}.tabs:hover{cursor:pointer}.currentPage{border-top:1px solid #818285}.mainSection{width:100%;height:calc(100% - 75px);background-position:right;background-size:cover;position:relative}.infoBox{width:40%;max-height:calc(100% - 300px);position:relative;top:150px;left:150px;background-color:rgba(34,34,34,.85);color:#818285;padding:40px;font-size:28px;line-height:1.3;box-shadow:-10px 10px 10px rgba(0,0,0,.5);overflow-y:auto}.infoBox::webkit-scrollbar{display:none}.servicesNames{border:0;font-size:22px;text-align:center}.servicesNames:hover{cursor:pointer}.selectedService{color:#a5a0a4}.serviceItems{font-size:22px;line-height:1.2;padding:8px 0;border-bottom:1px solid #a5a0a4}.serviceBox{text-align:center;font-size:22px;min-height:20px;padding:0 0}.productItems{font-size:22px;display:flex;flex-direction:row}.productItems span{flex:1;padding-left:10px;position:relative;min-width:316px}.productItems span p{position:absolute;top:50%;transform:translateY(-50%)}.productItems img{flex:1;max-height:282px}.appFlex{flex:5;text-align:center;padding:0 40px}.appFlex:first-of-type{border-right:1px solid #818285}.appLinkDiv{position:relative;padding:10px 10px;background-color:#818285;color:#000}#teamHolder{position:relative;top:25%;left:5%;width:90%;height:auto;display:flex;background-color:rgba(34,34,34,.85);box-shadow:-10px 10px 10px rgba(0,0,0,.5)}#teamHolder span{flex:1;text-align:center;padding:0;cursor:pointer;position:relative}#teamHolder span svg{position:absolute;top:0;left:0}#teamHolder span:nth-of-type(2){flex:8;overflow:hidden;white-space:nowrap;padding:10px 0;padding-left:5px}.stylistCard{background-repeat:no-repeat;background-position:top;background-size:contain;width:20%;height:100%;display:inline-block;position:relative;left:0;margin-left:3%;margin-right:3%;margin-top:2%;font-size:44px;color:#818285;transition:left .75s ease-in-out;cursor:pointer}.stylistCard img{width:100%}.stylistCard p{text-align:center;width:100%;font-family:"Julius Sans One"}.stylistCard:first-of-type{margin-left:0}.fadedBackdrop{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(2,2,2,.85)}#selectedStylistCard{position:relative;top:20%;left:30%;width:40%;height:60%;background-color:#222;box-shadow:-10px 10px 10px rgba(0,0,0,.85);color:rgba(241,241,241,.8);padding:10px}#selectedStylistCard div{text-align:center;font-size:2.75em;font-family:"Julius Sans One";text-align:left}#selectedStylistCard div span{border-bottom:1px solid #f1f1f1;position:relative;left:50%;font-family:"Julius Sans One"}#selectedStylistCard section{height:calc(90% - 20px);padding:10px;display:flex}#selectedStylistCard section div{display:none}#selectedStylistCard section span{flex:1}#selectedStylistCard section span:first-of-type{background-size:cover;background-position:top;background-repeat:no-repeat}#selectedStylistCard section span:nth-of-type(2){padding-left:10px;padding-right:10px;font-size:1.5em;line-height:1.3;overflow-y:scroll;overflow-x:hidden;white-space:pre-wrap;color:#818285}#XIcon,#hamburgerIcon{display:none}#sideBar{position:absolute;top:40px;left:0;width:100vw;height:calc(100vh - 40px);background-color:rgba(2,2,2,.8);transition:all .5s ease-out;opacity:1}#sideBar svg{position:absolute;top:10px;left:10px}#sideBar.ng-hide{opacity:0}#mobileTabsSection{width:100%;height:100%;color:#f1f1f1;font-family:"Julius Sans One";font-size:28px;line-height:1.3;padding-top:10%}#mobileTabsSection div{margin-left:10%;width:80%;text-align:center;border-bottom:1px solid #f1f1f1;padding:20px 0}#mobileTabsSection div:first-of-type{border-top:1px solid #f1f1f1}.selectedMobile{color:rgba(241,241,241,.25)}#copycat{width:100%;height:100%;transition:opacity 1s linear;opacity:0;position:absolute;top:0;background-position:right;background-size:cover}#appMobileFlexDir{display:flex}.showbig{display:inline-block}.showsmall{display:none}#stylistSpecialties{font-size:1.5em;width:calc(100% - 10px);margin-left:-10px;padding:0 10px 10px 20px;background-color:inherit;color:#818285}#stylistSpecialties spec{font-weight:700;color:#a5a0a4}@media (max-height:830px){.infoBox{top:50px;left:50px;max-height:calc(100% - 200px)}}@media (max-width:1682px){footer section span{font-size:1em}.tabs{font-size:24px}.servicesNames{font-size:18px}}@media (max-width:1530px){.stylistCard p{font-size:30px}#selectedStylistCard div span{font-size:30px}}@media (max-width:1412px){footer section span{font-size:.8em}.tabs{font-size:20px}}@media (max-width:1236px){.tabs{font-size:16px}}@media (max-width:1024px){#tabsDiv{display:none}.mainSection{background-position:68% 50%;height:calc(100% - 40px)}#copycat{background-position:68% 50%}header{height:40px}#logo{max-height:38px;width:200px;left:10px}footer section:first-of-type span:first-of-type{flex:0}footer section:nth-of-type(2){flex:4;text-align:center;font-size:18px;position:relative;text-align:right;padding-right:40px}footer section:nth-of-type(2) span{position:relative;top:60%}footer section:nth-of-type(2) span:nth-of-type(2){flex:3}.infoBox{top:50%;transform:translateY(-50%);left:10%;width:80%!important;max-height:calc(100% - 100px);font-size:24px;overflow-y:scroll;padding-left:0;padding-right:0;padding:20px 0}.infoBox p{padding:0 20px}.productItems img{width:calc(100% - 40px);margin-left:20px}.productItems span p{top:20px;transform:translateY(0);padding-bottom:20px}#appMobileFlexDir{display:block;max-height:calc(100% - 80px);padding-top:10px}.appFlex{font-size:18px;padding:10px 0 20px 0}.appFlex svg{width:100px;height:100px}.appFlex:first-of-type{border-right:0;padding-top:10px;border-bottom:1px solid #818285}#XIcon,#hamburgerIcon{display:inline-block;position:absolute;top:10px;right:10px;top:0}#teamHolder{top:50%;transform:translateY(-50%)}#selectedStylistCard{position:absolute;width:95%;height:100%;top:0;left:0}#selectedStylistCard div{height:auto;display:none}#selectedStylistCard div span{font-family:"Julius Sans One"}#selectedStylistCard section{flex-direction:column;height:95%}#selectedStylistCard section div{display:inline-block;flex:1;vertical-align:text-bottom;position:relative}#selectedStylistCard section div span{position:absolute;bottom:15px;left:50%;transform:translateX(-50%);font-family:"Julius Sans One";font-size:30px}#selectedStylistCard section span{flex:4.5;background-size:contain!important}#productbox{width:90%}.showbig{display:none}.showsmall{display:inline-block}.serviceItems{margin:0 20px;line-height:1.3;padding:10px 0}.serviceBox{padding:0 20px}}@media (max-width:770px){.productItems{flex-direction:column;min-height:420px}#productbox{height:auto}#spanSpacer{flex:.5}#teamHolder{width:60%;height:90%;left:20%}#teamHolder span:first-of-type,#teamHolder span:last-of-type{display:none}#teamHolder span:nth-of-type(2){overflow-y:scroll;height:95%;margin-top:5%;padding:0}#teamHolder .stylistCard{display:block;background-position:top;background-size:cover;width:90%;height:auto;position:relative;left:0;margin-left:5%;margin-top:0;margin-bottom:50px}#teamHolder .stylistCard img{width:75%}#teamHolder .stylistCard p{position:absolute;bottom:10px;left:12.5%;padding:5px 0 0 0;width:75%;height:auto;background-color:rgba(2,2,2,.8);font-size:36px}#teamHolder .stylistCard:first-of-type{margin-top:30px}#teamHolder .stylistCard:last-of-type{margin-bottom:-20%}.productItems img{width:calc(100% - 250px);margin-left:125px}}@media (max-width:500px){#spanSpacer{display:none}footer section span{font-size:.6em;text-align:center;padding-top:5px}footer section:nth-of-type(2){padding-right:0}.infoBox{width:90%!important;left:5%}#teamHolder{width:90%;left:5%}.productItems img{width:calc(100% - 40px);margin-left:20px}}
+@font-face {
+    font-family: Assistant, sans-serif
+}
+
+@font-face {
+    font-family: 'Julius Sans One', sans-serif
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Assistant
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit
+}
+
+a:hover {
+    cursor: pointer
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    display: inline-block
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #222
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    position: relative;
+    background-color: #a5a0a4;
+    color: #222
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: rgba(34, 34, 34, .85)
+}
+
+footer section {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    position: relative;
+    height: 25px
+}
+
+footer section span {
+    flex: 1;
+    font-family: "Julius Sans One";
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em
+}
+
+footer section #spanSpacer {
+    flex: 4
+}
+
+footer section a {
+    flex: 1;
+    height: 25px
+}
+
+footer section a svg {
+    transition: all .5s ease;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+footer section a svg:hover {
+    cursor: pointer;
+    height: 50px;
+    width: 50px
+}
+
+footer section a svg #facebook,
+footer section a svg #google,
+footer section a svg #instagram,
+footer section a svg #yelp {
+    transition: all .5s ease
+}
+
+footer section a svg:hover #facebook {
+    fill: #2196f3
+}
+
+footer section a svg:hover #instagram {
+    fill: #ff9800
+}
+
+footer section a svg:hover #google {
+    fill: #4caf50
+}
+
+footer section a svg:hover #yelp {
+    fill: #f44336
+}
+
+#logo {
+    max-height: 200px;
+    width: 400px;
+    position: relative;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%)
+}
+
+#tabsDiv {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px
+}
+
+.tabs {
+    margin: 0 20px 0 0;
+    color: #f1f1f1;
+    font-family: "Julius Sans One";
+    padding-top: 5px
+}
+
+.tabs:hover {
+    cursor: pointer
+}
+
+.currentPage {
+    border-top: 1px solid #818285
+}
+
+.mainSection {
+    width: 100%;
+    height: calc(100% - 75px);
+    background-position: right;
+    background-size: cover;
+    position: relative
+}
+
+.infoBox {
+    width: 40%;
+    max-height: calc(100% - 300px);
+    position: relative;
+    top: 150px;
+    left: 150px;
+    background-color: rgba(34, 34, 34, .85);
+    color: #818285;
+    padding: 40px;
+    font-size: 28px;
+    line-height: 1.3;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, .5);
+    overflow-y: auto
+}
+
+.infoBox::webkit-scrollbar {
+    display: none
+}
+
+.servicesNames {
+    border: 0;
+    font-size: 22px;
+    text-align: center
+}
+
+.servicesNames:hover {
+    cursor: pointer
+}
+
+.selectedService {
+    color: #a5a0a4
+}
+
+.serviceItems {
+    font-size: 22px;
+    line-height: 1.2;
+    padding: 8px 0;
+    border-bottom: 1px solid #a5a0a4
+}
+
+.serviceBox {
+    text-align: center;
+    font-size: 22px;
+    min-height: 20px;
+    padding: 0 0
+}
+
+.productItems {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row
+}
+
+.productItems span {
+    flex: 1;
+    padding-left: 10px;
+    position: relative;
+    min-width: 316px
+}
+
+.productItems span p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.productItems img {
+    flex: 1;
+    max-height: 282px
+}
+
+.appFlex {
+    flex: 5;
+    text-align: center;
+    padding: 0 40px
+}
+
+.appFlex:first-of-type {
+    border-right: 1px solid #818285
+}
+
+.appLinkDiv {
+    position: relative;
+    padding: 10px 10px;
+    background-color: #818285;
+    color: #000
+}
+
+#teamHolder {
+    position: relative;
+    top: 25%;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: rgba(34, 34, 34, .85);
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, .5)
+}
+
+#teamHolder span {
+    flex: 1;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    position: relative
+}
+
+#teamHolder span svg {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#teamHolder span:nth-of-type(2) {
+    flex: 8;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 0;
+    padding-left: 5px
+}
+
+.stylistCard {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    font-size: 44px;
+    color: #818285;
+    transition: left .75s ease-in-out;
+    cursor: pointer
+}
+
+.stylistCard img {
+    width: 100%
+}
+
+.stylistCard p {
+    text-align: center;
+    width: 100%;
+    font-family: "Julius Sans One"
+}
+
+.stylistCard:first-of-type {
+    margin-left: 0
+}
+
+.fadedBackdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, .85)
+}
+
+#selectedStylistCard {
+    position: relative;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+    background-color: #222;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, .85);
+    color: rgba(241, 241, 241, .8);
+    padding: 10px
+}
+
+#selectedStylistCard div {
+    text-align: center;
+    font-size: 2.75em;
+    font-family: "Julius Sans One";
+    text-align: left
+}
+
+#selectedStylistCard div span {
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+    left: 50%;
+    font-family: "Julius Sans One"
+}
+
+#selectedStylistCard section {
+    height: calc(90% - 20px);
+    padding: 10px;
+    display: flex
+}
+
+#selectedStylistCard section div {
+    display: none
+}
+
+#selectedStylistCard section span {
+    flex: 1
+}
+
+#selectedStylistCard section span:first-of-type {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat
+}
+
+#selectedStylistCard section span:nth-of-type(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.5em;
+    line-height: 1.3;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+    color: #818285
+}
+
+#XIcon,
+#hamburgerIcon {
+    display: none
+}
+
+#sideBar {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 40px);
+    background-color: rgba(2, 2, 2, .8);
+    transition: all .5s ease-out;
+    opacity: 1
+}
+
+#sideBar svg {
+    position: absolute;
+    top: 10px;
+    left: 10px
+}
+
+#sideBar.ng-hide {
+    opacity: 0
+}
+
+#mobileTabsSection {
+    width: 100%;
+    height: 100%;
+    color: #f1f1f1;
+    font-family: "Julius Sans One";
+    font-size: 28px;
+    line-height: 1.3;
+    padding-top: 10%
+}
+
+#mobileTabsSection div {
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 20px 0
+}
+
+#mobileTabsSection div:first-of-type {
+    border-top: 1px solid #f1f1f1
+}
+
+.selectedMobile {
+    color: rgba(241, 241, 241, .25)
+}
+
+#copycat {
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s linear;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-position: right;
+    background-size: cover
+}
+
+#appMobileFlexDir {
+    display: flex
+}
+
+.showbig {
+    display: inline-block
+}
+
+.showsmall {
+    display: none
+}
+
+#stylistSpecialties {
+    font-size: 1.5em;
+    width: calc(100% - 10px);
+    margin-left: -10px;
+    padding: 0 10px 10px 20px;
+    background-color: inherit;
+    color: #818285
+}
+
+#stylistSpecialties spec {
+    font-weight: 700;
+    color: #a5a0a4
+}
+
+@media (max-height:830px) {
+    .infoBox {
+        top: 50px;
+        left: 50px;
+        max-height: calc(100% - 200px)
+    }
+}
+
+@media (max-width:1682px) {
+    footer section span {
+        font-size: 1em
+    }
+    .tabs {
+        font-size: 24px
+    }
+    .servicesNames {
+        font-size: 18px
+    }
+}
+
+@media (max-width:1530px) {
+    .stylistCard p {
+        font-size: 30px
+    }
+    #selectedStylistCard div span {
+        font-size: 30px
+    }
+}
+
+@media (max-width:1412px) {
+    footer section span {
+        font-size: .8em
+    }
+    .tabs {
+        font-size: 20px
+    }
+}
+
+@media (max-width:1236px) {
+    .tabs {
+        font-size: 16px
+    }
+}
+
+@media (max-width:1024px) {
+    #tabsDiv {
+        display: none
+    }
+    .mainSection {
+        background-position: 68% 50%;
+        height: calc(100% - 40px)
+    }
+    #copycat {
+        background-position: 68% 50%
+    }
+    header {
+        height: 40px
+    }
+    #logo {
+        max-height: 38px;
+        width: 200px;
+        left: 10px
+    }
+    footer section:first-of-type span:first-of-type {
+        flex: 0
+    }
+    footer section:nth-of-type(2) {
+        flex: 4;
+        text-align: center;
+        font-size: 18px;
+        position: relative;
+        text-align: right;
+        padding-right: 40px
+    }
+    footer section:nth-of-type(2) span {
+        position: relative;
+        top: 60%
+    }
+    footer section:nth-of-type(2) span:nth-of-type(2) {
+        flex: 3
+    }
+    .infoBox {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10%;
+        width: 80%!important;
+        max-height: calc(100% - 100px);
+        font-size: 24px;
+        overflow-y: scroll;
+        padding-left: 0;
+        padding-right: 0;
+        padding: 20px 0
+    }
+    .infoBox p {
+        padding: 0 20px
+    }
+    .productItems img {
+        width: calc(100% - 40px);
+        margin-left: 20px
+    }
+    .productItems span p {
+        top: 20px;
+        transform: translateY(0);
+        padding-bottom: 20px
+    }
+    #appMobileFlexDir {
+        display: block;
+        max-height: calc(100% - 80px);
+        padding-top: 10px
+    }
+    .appFlex {
+        font-size: 18px;
+        padding: 10px 0 20px 0
+    }
+    .appFlex svg {
+        width: 100px;
+        height: 100px
+    }
+    .appFlex:first-of-type {
+        border-right: 0;
+        padding-top: 10px;
+        border-bottom: 1px solid #818285
+    }
+    #XIcon,
+    #hamburgerIcon {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        top: 0
+    }
+    #teamHolder {
+        top: 50%;
+        transform: translateY(-50%)
+    }
+    #selectedStylistCard {
+        position: absolute;
+        width: 95%;
+        height: 100%;
+        top: 0;
+        left: 0
+    }
+    #selectedStylistCard div {
+        height: auto;
+        display: none
+    }
+    #selectedStylistCard div span {
+        font-family: "Julius Sans One"
+    }
+    #selectedStylistCard section {
+        flex-direction: column;
+        height: 95%
+    }
+    #selectedStylistCard section div {
+        display: inline-block;
+        flex: 1;
+        vertical-align: text-bottom;
+        position: relative
+    }
+    #selectedStylistCard section div span {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Julius Sans One";
+        font-size: 30px
+    }
+    #selectedStylistCard section span {
+        flex: 4.5;
+        background-size: contain!important
+    }
+    #productbox {
+        width: 90%
+    }
+    .showbig {
+        display: none
+    }
+    .showsmall {
+        display: inline-block
+    }
+    .serviceItems {
+        margin: 0 20px;
+        line-height: 1.3;
+        padding: 10px 0
+    }
+    .serviceBox {
+        padding: 0 20px
+    }
+}
+
+@media (max-width:770px) {
+    .productItems {
+        flex-direction: column;
+        min-height: 420px
+    }
+    #productbox {
+        height: auto
+    }
+    #spanSpacer {
+        flex: .5
+    }
+    #teamHolder {
+        width: 60%;
+        height: 90%;
+        left: 20%
+    }
+    #teamHolder span:first-of-type,
+    #teamHolder span:last-of-type {
+        display: none
+    }
+    #teamHolder span:nth-of-type(2) {
+        overflow-y: scroll;
+        height: 95%;
+        margin-top: 5%;
+        padding: 0
+    }
+    #teamHolder .stylistCard {
+        display: block;
+        background-position: top;
+        background-size: cover;
+        width: 90%;
+        height: auto;
+        position: relative;
+        left: 0;
+        margin-left: 5%;
+        margin-top: 0;
+        margin-bottom: 50px
+    }
+    #teamHolder .stylistCard img {
+        width: 75%
+    }
+    #teamHolder .stylistCard p {
+        position: absolute;
+        bottom: 10px;
+        left: 12.5%;
+        padding: 5px 0 0 0;
+        width: 75%;
+        height: auto;
+        background-color: rgba(2, 2, 2, .8);
+        font-size: 36px
+    }
+    #teamHolder .stylistCard:first-of-type {
+        margin-top: 30px
+    }
+    #teamHolder .stylistCard:last-of-type {
+        margin-bottom: -20%
+    }
+    .productItems img {
+        width: calc(100% - 250px);
+        margin-left: 125px
+    }
+    #stylistSpecialtiesPhone {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    #spanSpacer {
+        display: none
+    }
+    footer section span {
+        font-size: .6em;
+        text-align: center;
+        padding-top: 5px
+    }
+    footer section:nth-of-type(2) {
+        padding-right: 0
+    }
+    .infoBox {
+        width: 90%!important;
+        left: 5%
+    }
+    #teamHolder {
+        width: 90%;
+        left: 5%
+    }
+    .productItems img {
+        width: calc(100% - 40px);
+        margin-left: 20px
+    }
+    #stylistSpecialties {
+        height: 10%;
+    }
+    #stylistSpecialtiesPhone {
+        display: inline-block;
+        font-size: 1em;
+    }
+}
