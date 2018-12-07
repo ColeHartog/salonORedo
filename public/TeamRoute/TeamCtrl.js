@@ -43,13 +43,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I began my career in 2012. \n\nFavorite advanced training: Sally Rogerson, Creative Cutting Course. \n\nWhy the hair industry: I was born with a passion for hair. It’s just in my blood. As a child I vividly remember going into the salon with my mother and being thrilled just to be in that environment. They say if you do what you love, you’ll never work a day in your life. I feel extremely blessed to say this is my reality. \n\nThree favorite things: \n·      Family. Friends. My dog. \n·      Music. \n·      Photography-The ability to capture moments. \n\nMost unlikely inspiration: LOVE. Although this may seem so cliche, love is the most powerful emotion we can feel. I am inspired, not only by the love people can have for each other, but also for their careers, hobbies, objects, animals, etc.. Anything can be loved. The energy behind love is not something that can be explained because, we all feel it differently.",
             specialties: "Hair Talk Extensions, Blondes, Balayage"
         },
-        {
-            name: "Emma",
-            preview: "./images/Team/Emma2.jpeg",
-            image: "./images/Team/Emma-Large2.jpeg",
-            bio: "Bio coming soon...",
-//            specialties: ""
-        },
+//        {
+//            name: "Emma",
+//            preview: "./images/Team/Emma2.jpeg",
+//            image: "./images/Team/Emma-Large2.jpeg",
+//            bio: "Bio coming soon...",
+////            specialties: ""
+//        },
         {
             name: "Falecia",
             preview: "./images/Team/Falecia.png",
@@ -62,13 +62,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
 //            image: "./images/Team/Hillary-Large.jpg",
 //            bio: "Salon Coordinator."
 //        },
-        {
-            name: "Isabelle",
-            preview: "./images/Team/Isabelle2.jpg",
-            image: "./images/Team/Isabelle-Large2.jpg",
-            bio: "Bio coming soon...",
-            specialties: "Lash lifts and lash extensions"
-        },
+//        {
+//            name: "Isabelle",
+//            preview: "./images/Team/Isabelle2.jpg",
+//            image: "./images/Team/Isabelle-Large2.jpg",
+//            bio: "Bio coming soon...",
+//            specialties: "Lash lifts and lash extensions"
+//        },
         {
             name: "Jessica",
             preview: "./images/Team/Jessica.jpg",
@@ -197,7 +197,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
                 $scope.leftPOS -= 104;
             }
             else if($scope.leftPOS < -300){
-                $scope.leftPOS = -416;
+                $scope.leftPOS = -390;
             }
             // 312 base + 26 for each additional tile
 //            else if($scope.leftPOS < -300){
@@ -208,7 +208,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
 //            if($scope.leftPOS === -338) {
 //                $scope.leftPOS = -312;
 //            }
-            if($scope.leftPOS === -416) {
+            if($scope.leftPOS === -390) {
                 $scope.leftPOS = -312;
             }else{
                 if($scope.leftPOS < 0){
