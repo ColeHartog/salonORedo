@@ -1,6 +1,9 @@
+'use strict';
 var gulp = require("gulp"),
 	sass = require("gulp-sass"),
     cleanCSS = require("gulp-clean-css");
+
+sass.compiler = require('node-sass');
 
 gulp.task("sass", function(){
 	return gulp.src("./public/styles.scss")
@@ -15,5 +18,9 @@ gulp.task("minify-css", function(){
 });
 
 gulp.task("watch", function(){
-	gulp.watch("./public/styles.scss", ["sass"])
+	gulp.watch("./public/styles.scss", function(){
+	return gulp.src("./public/styles.scss")
+		.pipe(sass())
+		.pipe(gulp.dest("./public"))
+    })
 });

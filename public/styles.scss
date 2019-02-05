@@ -478,6 +478,9 @@ footer {
     }
 }
 
+#stylistSpecialtiesPhone {
+    display: none;
+}
 
 
 
@@ -549,6 +552,12 @@ footer {
 }
 
 @media (max-width: 1024px) {
+    #stylistSpecialties {
+        display: none
+    }
+    #stylistSpecialtiesPhone{
+        display: inherit;
+    }
     #tabsDiv {
         display: none;
     }
