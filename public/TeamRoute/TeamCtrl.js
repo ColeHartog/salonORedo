@@ -195,35 +195,52 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
         }
         
     ];
-//   FILES NEED TO BE .jpeg (lower case)
+//   FILES NEED TO BE .jpeg||.jpg (lower case)
     $scope.leftPOS = 0;
     
     $scope.move = function(direction){
-        if(direction === "left"){
-            if($scope.leftPOS >= -400){
+//        console.log("LeftPOS: " + $scope.leftPOS + ", Math.Floor: "  + (-104 * (Math.floor( $scope.teamArray.length / 4) -2)) + ", %: " + ($scope.teamArray.length % 4));
+        if(direction == "left"){
+            if($scope.leftPOS >= ((-104 * (Math.floor( $scope.teamArray.length / 4) -2))))
                 $scope.leftPOS -= 104;
-            }
-//            else if($scope.leftPOS < -300){
-//                $scope.leftPOS = -390;
-//            }
-            // 312 base + 26 for each additional tile
-//            else if($scope.leftPOS < -300){
-//                $scope.leftPOS = -338;
-//            }
+            else if($scope.leftPOS >= ((-104 * (Math.floor( $scope.teamArray.length / 4) -1))))
+                $scope.leftPOS -= (26 * ( $scope.teamArray.length % 4 ));
+            
+        }else if(direction == "right"){
+            if($scope.leftPOS == (-26 * ($scope.teamArray.length - 4)))
+                $scope.leftPOS += (26 * ( $scope.teamArray.length % 4 ));
+            else if($scope.leftPOS < 0)
+                $scope.leftPOS += 104;
         }
-        if(direction === "right"){
-//            if($scope.leftPOS === -338) {
+    }
+    
+//    $scope.move = function(direction){
+//        console.log($scope.leftPOS);
+//        if(direction === "left"){
+//            if($scope.leftPOS >= -400){
+//                $scope.leftPOS -= 104;
+//            }
+////            else if($scope.leftPOS < -300){
+////                $scope.leftPOS = -390;
+////            }
+//            // 312 base + 26 for each additional tile
+////            else if($scope.leftPOS < -300){
+////                $scope.leftPOS = -338;
+////            }
+//        }
+//        if(direction === "right"){
+////            if($scope.leftPOS === -338) {
+////                $scope.leftPOS = -312;
+////            }
+//            if($scope.leftPOS === -390) {
 //                $scope.leftPOS = -312;
+//            }else{
+//                if($scope.leftPOS < 0){
+//                    $scope.leftPOS += 104;
+//                }
 //            }
-            if($scope.leftPOS === -390) {
-                $scope.leftPOS = -312;
-            }else{
-                if($scope.leftPOS < 0){
-                    $scope.leftPOS += 104;
-                }
-            }
-        }
-    };
+//        }
+//    };
     
     $scope.showInfo = false;
     $scope.selectedStylist = {};
