@@ -112,6 +112,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             specialties: "Color, Event Styling, Makeup Artistry, Brows"
         },*/
         {
+            name: "Kylie",
+            preview: "./images/Team/Kylie.jpg",
+            image: "./images/Team/Kylie-Large.jpg",
+            bio: "How many years in the industry: My hair journey started in California in 2014 where I did my my apprenticeship and rented a station. I worked with experienced stylists and loved learning different techniques from them.\n\nFavorite advanced training: I did a 2 day hair extension class in San Jose, Ca. and it opened my creativity, trying new styles and transformations.\n\nWhy the esthetics industry: I have always been intrigued with hair, when I was younger all my Barbies had crazy haircuts! I began to work as a receptionist in a hair salon and I knew that’s where I was meant to be! When I went to cosmetology school I loved learning formulas and interacting with clients. Hair is such a big part of our appearance, and I love making people feel confident.\n\nThree favorite things:\n·      Family.\n·      Sushi.\n·      True crime podcasts.\n\nMost unlikely inspiration: I always feel so inspired by social media, it is such a wonderful platform for stylists to share their ideas and unique points of view. I love watching new videos and picking up techniques from other stylist across the world.",
+            specialties: ""
+        },
+        {
             name: "Margo",
             preview: "./images/Team/Margo.jpg",
             image: "./images/Team/Margo-Large.jpg",
