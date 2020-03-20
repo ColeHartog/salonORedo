@@ -1,7 +1,17 @@
 <section class="mainSection" style="background-image: url(./images/2257E%20A1%201920.jpg)">
 <!--    <h2>Products</h2>-->
     <div id="productbox" class="infoBox">
-        <p>At Salon O we take pride in choosing product lines that use the highest-grade botanical ingredients. Not only do our product lines produce beautiful, healthy scalp and hair, but they are all commited to sustainability.</p>
+        <p>
+            At Salon O we take pride in choosing product lines that use the highest-grade botanical ingredients. Not only do our product lines produce beautiful, healthy scalp and hair, but they are all commited to sustainability.
+            <br><br>
+            For a list of products available to order online, please checkout our online store.
+            <br>
+            <a href="https://shop.saloninteractive.com/store/SalonOutah" style="display:block;width:100%;text-align: center;">
+                <span class="appLinkDiv" style="position: relative;">
+                    Click Here
+                </span>
+            </a>
+        </p>
         <br>
         <div class="serviceBox">
             <span class="servicesNames" ng-repeat="product in Products" ng-click="SelectProduct(product)">
@@ -10,7 +20,7 @@
         </div>
         <br>
         <div class="productItems">
-            <img src="{{ProductDetails[Selected].url}}" alt="Product Image">
+            <img src="{{ProductDetails[Selected].url}}" alt="Picture Coming Soon">
             <span><p>{{ProductDetails[Selected].text}}</p></span>
         </div>
     </div>
