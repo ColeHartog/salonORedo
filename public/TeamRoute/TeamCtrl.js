@@ -16,12 +16,12 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/Anthony-Large.jpg",
             bio: "Years in the industry:  I began my hair journey in 2016. \n\nFavorite advanced training: Vidal Sassoon course in Santa Monica. It was 5 days of amazing, intense, intricate cutting. \n\nWhy the hair industry:  I knew when was I was a little boy I was born to be in this industry. Plus, I love meeting new people. \n\nThree favorite things: \n·      Dogs (all animals really) \n·      Plants  \n·      Traveling \n\nMost unlikely inspiration: My garden: all of tomorrows flowers begin with the seeds of today. I just love that nature provides such a beautiful color palette. The organic shape and kaleidoscope of color each plant  provides truly inspires my creativity.",
         },
-        {
-            name: "Aubree",
-            preview: "./images/Team/Aubree.jpg",
-            image: "./images/Team/Aubree-Large.jpg",
-            bio: "Salon Coordinator."
-        },
+        // {
+        //     name: "Aubree",
+        //     preview: "./images/Team/Aubree.jpg",
+        //     image: "./images/Team/Aubree-Large.jpg",
+        //     bio: "Salon Coordinator."
+        // },
         {
             name: "Bethany",
             preview: "./images/Team/Bethany.jpg",
@@ -111,13 +111,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I began my career in 2006 as an apprentice under Ann Stolworthy. Now a stylist, Salon O has helped cultivate me as a stylist and makeup artist.\n\nFavorite advanced training: Our team’s trip to Seattle for the Kevin Murphy Show. The classes focused on editorial work and current looks, which were both initial attractors for me to this industry.\n\nWhy the hair industry: I’m that girl who cut her own hair, her Barbie’s hair and over time this evolved into doing hair and makeup for every event possible. Looking back, I was always meant to be here.\n\nThree favorite things:\n·      Vintage shopping: I love the hunt for something that has been overlooked and under-loved.\n·      Cooking: Especially with friends and family. Good food always brings people together.\n·      Reading: I love how a great book can consume you.\n\nMost unlikely inspiration: Halloween: For me it’s about creating a character. I love the process of using hair, makeup and costumes in new ways, ways you never imagined.",
             specialties: "Color, Event Styling, Makeup Artistry, Brows"
         },*/
-        {
-            name: "Kylie",
-            preview: "./images/Team/Kylie.jpg",
-            image: "./images/Team/Kylie-Large.jpg",
-            bio: "How many years in the industry: My hair journey started in California in 2014 where I did my my apprenticeship and rented a station. I worked with experienced stylists and loved learning different techniques from them.\n\nFavorite advanced training: I did a 2 day hair extension class in San Jose, Ca. and it opened my creativity, trying new styles and transformations.\n\nWhy the esthetics industry: I have always been intrigued with hair, when I was younger all my Barbies had crazy haircuts! I began to work as a receptionist in a hair salon and I knew that’s where I was meant to be! When I went to cosmetology school I loved learning formulas and interacting with clients. Hair is such a big part of our appearance, and I love making people feel confident.\n\nThree favorite things:\n·      Family.\n·      Sushi.\n·      True crime podcasts.\n\nMost unlikely inspiration: I always feel so inspired by social media, it is such a wonderful platform for stylists to share their ideas and unique points of view. I love watching new videos and picking up techniques from other stylist across the world.",
-            specialties: ""
-        },
+        // {
+        //     name: "Kylie",
+        //     preview: "./images/Team/Kylie.jpg",
+        //     image: "./images/Team/Kylie-Large.jpg",
+        //     bio: "How many years in the industry: My hair journey started in California in 2014 where I did my my apprenticeship and rented a station. I worked with experienced stylists and loved learning different techniques from them.\n\nFavorite advanced training: I did a 2 day hair extension class in San Jose, Ca. and it opened my creativity, trying new styles and transformations.\n\nWhy the esthetics industry: I have always been intrigued with hair, when I was younger all my Barbies had crazy haircuts! I began to work as a receptionist in a hair salon and I knew that’s where I was meant to be! When I went to cosmetology school I loved learning formulas and interacting with clients. Hair is such a big part of our appearance, and I love making people feel confident.\n\nThree favorite things:\n·      Family.\n·      Sushi.\n·      True crime podcasts.\n\nMost unlikely inspiration: I always feel so inspired by social media, it is such a wonderful platform for stylists to share their ideas and unique points of view. I love watching new videos and picking up techniques from other stylist across the world.",
+        //     specialties: ""
+        // },
         {
             name: "Margo",
             preview: "./images/Team/Margo.jpg",
@@ -138,13 +138,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: Since 1998.\n\nFavorite advanced training: I assisted Master Stylist, Victor Manno, for two years at The Elizabeth Arden Salon in Pittsburgh, Pennsylvania.\n\nWhy the hair industry: I wanted a career I could have fun with and it turned out… I was a natural!\n\nThree favorite things: \n·      My family. \n·      Friends. \n·      Summer.\n\nMost unlikely inspiration: Victor Manno. A truly intelligent man, he was my mentor. I learned so much from Victor. Every time I am working on a client I want to make Vic proud.",
             specialties: "Texture Specialist, Classic Cuts & Colors, Re-texturizers, Men's Cuts, Blowouts"
         },
-        {
-            name: "Nicole",
-            preview: "./images/Team/Nicole.jpg",
-            image: "./images/Team/Nicole-Large.jpg",
-            bio: "Years in the industry: I’ve been in the industry since 2008.\n\nFavorite advanced training: Cirque de Soleil Wig Styling Class in Las Vegas. It was so much fun and and so different from anything else I had attended.\n\nWhy the hair industry: Growing up my grandpa owned a hair salon. I always admired the way he worked, the pride he took in his craft and how he was able to take care of his family. I wanted that for myself. I also wanted to learn how he gave my Korean grandma the perfect, platinum, mean beehive.\n\nThree favorite things:\n·      Family (including friends and dogs).\n·      Whiskey.\n·      Collecting Records.\n\nMost unlikely inspiration: My biggest inspiration is my coworkers. I know it’s not “unlikely,” but it’s very true. It’s incredibly inspiring to watch them work. There is a wealth of knowledge at Salon O, and I am lucky to be surrounded by such talent and passion for their craft.",
-            specialties: "Color, Balayage, Red & Copper Color, Blowouts"
-        },
+        // {
+        //     name: "Nicole",
+        //     preview: "./images/Team/Nicole.jpg",
+        //     image: "./images/Team/Nicole-Large.jpg",
+        //     bio: "Years in the industry: I’ve been in the industry since 2008.\n\nFavorite advanced training: Cirque de Soleil Wig Styling Class in Las Vegas. It was so much fun and and so different from anything else I had attended.\n\nWhy the hair industry: Growing up my grandpa owned a hair salon. I always admired the way he worked, the pride he took in his craft and how he was able to take care of his family. I wanted that for myself. I also wanted to learn how he gave my Korean grandma the perfect, platinum, mean beehive.\n\nThree favorite things:\n·      Family (including friends and dogs).\n·      Whiskey.\n·      Collecting Records.\n\nMost unlikely inspiration: My biggest inspiration is my coworkers. I know it’s not “unlikely,” but it’s very true. It’s incredibly inspiring to watch them work. There is a wealth of knowledge at Salon O, and I am lucky to be surrounded by such talent and passion for their craft.",
+        //     specialties: "Color, Balayage, Red & Copper Color, Blowouts"
+        // },
         /*{
             name: "Olivia",
             preview: "./images/Team/Olivia.jpg",
@@ -179,13 +179,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I’ve been in the industry since 2001.\n\nFavorite advanced training: I was lucky to be the salon owner that hosted the northwest launch of LabelM. This opportunity allowed me the privilege of participating on stage with top London stylists from both LabelM and Wella.\n\nWhy the hair industry: I chose the hair industry to let my creativity flow and create a positive outcome of self-confidence and beauty for both my guest, as well as for myself.\n\nThree favorite things:\n·      Musical theater.\n·      Literature.\n·      People watching.\n\nMost unlikely inspiration: My unlikely inspiration is the result of an argument that I have with myself about breaking out of my shell and letting others into my world. There is so much out there to be taken advantage of, and when you do, there are generally beautiful things to be had.",
             specialties: "Color, Vivid & Pastel Color, Balayage, Contemporary Cuts"
         },
-        {
-            name: "Tabitha",
-            preview: "./images/Team/Tabitha.jpg",
-            image: "./images/Team/Tabitha-Large.jpg",
-            bio: "Years in the industry: I began my career in 2007.\n\nFavorite advanced training: The best part of my career is the constant training and education I receive from fellow stylists. I am inspired everyday I go to work, and that’s unbeatable advanced training.\n\nWhy the hair industry: In my early teenage years I would watch my mom get her hair done, and I would practice what I learned on friends. I went from an informal stylist to officially graduating from the top beauty school, Euphoria Institute in Las Vegas on the luckiest days of all, 07/07/07. Jackpot!!!\n\nThree favorite things:\n·      Family.\n·      Mountains.\n·      Music.\n\nMost unlikely inspiration: Architecture. I briefly studied architecture at UNLV, and the knowledge of geometry, color scheme and overall building design still inspires me.",
-            specialties: "Free-Form Artistry, Naturally-Enhanced Color, Hair Talk Extensions, Style Transformations"
-        },
+        // {
+        //     name: "Tabitha",
+        //     preview: "./images/Team/Tabitha.jpg",
+        //     image: "./images/Team/Tabitha-Large.jpg",
+        //     bio: "Years in the industry: I began my career in 2007.\n\nFavorite advanced training: The best part of my career is the constant training and education I receive from fellow stylists. I am inspired everyday I go to work, and that’s unbeatable advanced training.\n\nWhy the hair industry: In my early teenage years I would watch my mom get her hair done, and I would practice what I learned on friends. I went from an informal stylist to officially graduating from the top beauty school, Euphoria Institute in Las Vegas on the luckiest days of all, 07/07/07. Jackpot!!!\n\nThree favorite things:\n·      Family.\n·      Mountains.\n·      Music.\n\nMost unlikely inspiration: Architecture. I briefly studied architecture at UNLV, and the knowledge of geometry, color scheme and overall building design still inspires me.",
+        //     specialties: "Free-Form Artistry, Naturally-Enhanced Color, Hair Talk Extensions, Style Transformations"
+        // },
         {
             name: "Tonni",
             preview: "./images/Team/Tonni.jpg",
