@@ -77,6 +77,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             specialties: "Color"
         },
         {
+            name: "Jordan",
+            preview: "./images/Team/Jordan.jpg",
+            image: "./images/Team/Jordan-Large.jpg",
+            bio: "Years in the industry: I began my hair career in 2016. \n\nFavorite advanced training: The Colour Mentoring Foundation course with Roch Lemay. It was an amazing and intense 3 day course that gave me a newfound love for color and the science behind it. \n\nWhy the hair industry: I’ve always loved doing hair. For any special occasion or school dance, I always did my friends’ hair. I never wanted a career that was easy to become stagnant in. I love that hair trends and techniques are always evolving, and there’s always going to be something more to learn. \n\nThree favorite things: \n·      Music. \n·      Food. \n·      Travel. \n\nMost unlikely inspiration: I’m constantly inspired by the music I listen to.",
+            specialties: "Color, Balayage, Women's Cuts"
+        },
+        {
             name: "Kat",
             preview: "./images/Team/KatC.jpg",
             image: "./images/Team/KatC-Large.jpg",
