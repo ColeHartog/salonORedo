@@ -3,13 +3,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
     //\n·      
     
 	$scope.teamArray = [
-        {
-            name: "Ann",
-            preview: "./images/Team/Ann.jpg",
-            image: "./images/Team/Ann-Large.jpg",
-            bio: "Years in the industry: I began my career in 1997. \n\nFavorite advanced training: Ruth Roach, RARE in New York City. Ruth taught me the techniques I built my unique cutting style upon. Every year I travel to a different city to take a week-long course to hone my skill set and keep me excited about my career path. \n\nWhy the hair industry: My mother knows best! Shortly after graduating high school my mother drove me to Francois D. Hair Academy and signed me up for classes. Years have passed, and I still have a love for hair and my career. Every day I am excited to make people look how they feel. The best part of my career is watching a client leave the salon ready for the world. Not to mention the opportunities my career affords me, such as working New York City’s Fashion Week to be the true hair geek that I am. \n\nThree favorite things: Here I go, traveling, food, style, my dog, coloring, movies and making things that are impractical, practical. \n\nMost unlikely inspiration: Children. The creativity of a curious and independent child is the greatest thing to see and reminds me of my childhood, and that my crazy dreams are in reach.",
-            specialties: "Long-lasting Cuts & Colors, Babylights, Gray-blending, Brows"
-        },
+        // {
+        //     name: "Ann",
+        //     preview: "./images/Team/Ann.jpg",
+        //     image: "./images/Team/Ann-Large.jpg",
+        //     bio: "Years in the industry: I began my career in 1997. \n\nFavorite advanced training: Ruth Roach, RARE in New York City. Ruth taught me the techniques I built my unique cutting style upon. Every year I travel to a different city to take a week-long course to hone my skill set and keep me excited about my career path. \n\nWhy the hair industry: My mother knows best! Shortly after graduating high school my mother drove me to Francois D. Hair Academy and signed me up for classes. Years have passed, and I still have a love for hair and my career. Every day I am excited to make people look how they feel. The best part of my career is watching a client leave the salon ready for the world. Not to mention the opportunities my career affords me, such as working New York City’s Fashion Week to be the true hair geek that I am. \n\nThree favorite things: Here I go, traveling, food, style, my dog, coloring, movies and making things that are impractical, practical. \n\nMost unlikely inspiration: Children. The creativity of a curious and independent child is the greatest thing to see and reminds me of my childhood, and that my crazy dreams are in reach.",
+        //     specialties: "Long-lasting Cuts & Colors, Babylights, Gray-blending, Brows"
+        // },
         {
             name: "Anthony",
             preview: "./images/Team/Anthony.jpg",
@@ -36,13 +36,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I began in 2006. \n\nFavorite advanced training: The Kevin Murphy Photo “Shoot Me” class in San Francisco. I loved the hands on experience of being able to create whatever I wanted and then have it photographed by a professional photographer.  It was a no judgement zone and I grew exponentially as an artist in those few days! \n\nWhy the hair industry: I’ve been in love with doing hair since I was a teenager. The creativity it allows me to connect still makes me excited to come to work. Everyday is something new and that keeps me growing and evolving. \n\nThree favorite things: \n·      Family \n·      Food \n·      Traveling \nMy family is everything. My husband and daughters support me in my dreams and push me to be better everyday. I love good food, experiencing new cuisines, thus far Asian is my favorite. To travel is to be free to me. I have a goal to see a new place every year. It brings me such joy and personal growth when I get to experience how other cultures live.\n\nMost unlikely inspiration: I get a lot of my inspiration from nature. I feel like no matter what season, there is always something that catches my attention and brings out my imagination.",
             specialties: "I am so inspired by younger stylists and their drive to be better. It makes me think of new ways to push myself. Teaching my point of view to others has been so rewarding and inspiring and I really love hearing how they view things as well."
         },
-        {
-            name: "Devery",
-            preview: "./images/Team/Devery.jpg",
-            image: "./images/Team/Devery-Large.jpg",
-            bio: "Years in the industry: I began my career in 2012. \n\nFavorite advanced training: Sally Rogerson, Creative Cutting Course. \n\nWhy the hair industry: I was born with a passion for hair. It’s just in my blood. As a child I vividly remember going into the salon with my mother and being thrilled just to be in that environment. They say if you do what you love, you’ll never work a day in your life. I feel extremely blessed to say this is my reality. \n\nThree favorite things: \n·      Family. Friends. My dog. \n·      Music. \n·      Photography-The ability to capture moments. \n\nMost unlikely inspiration: LOVE. Although this may seem so cliche, love is the most powerful emotion we can feel. I am inspired, not only by the love people can have for each other, but also for their careers, hobbies, objects, animals, etc.. Anything can be loved. The energy behind love is not something that can be explained because, we all feel it differently.",
-            specialties: "Hair Talk Extensions, Blondes, Balayage"
-        },
+        // {
+        //     name: "Devery",
+        //     preview: "./images/Team/Devery.jpg",
+        //     image: "./images/Team/Devery-Large.jpg",
+        //     bio: "Years in the industry: I began my career in 2012. \n\nFavorite advanced training: Sally Rogerson, Creative Cutting Course. \n\nWhy the hair industry: I was born with a passion for hair. It’s just in my blood. As a child I vividly remember going into the salon with my mother and being thrilled just to be in that environment. They say if you do what you love, you’ll never work a day in your life. I feel extremely blessed to say this is my reality. \n\nThree favorite things: \n·      Family. Friends. My dog. \n·      Music. \n·      Photography-The ability to capture moments. \n\nMost unlikely inspiration: LOVE. Although this may seem so cliche, love is the most powerful emotion we can feel. I am inspired, not only by the love people can have for each other, but also for their careers, hobbies, objects, animals, etc.. Anything can be loved. The energy behind love is not something that can be explained because, we all feel it differently.",
+        //     specialties: "Hair Talk Extensions, Blondes, Balayage"
+        // },
 //        {
 //            name: "Emma",
 //            preview: "./images/Team/Emma2.jpeg",
@@ -131,6 +131,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/Margo-Large.jpg",
             bio: "Years in the industry: I began my career in 2007 as an apprentice at Yosh For Hair/Gina Khan Salon in San Francisco, CA. While there, I specialized in cutting and advanced to the position of Artistic Director.\n\nFavorite advanced training: My most valuable training has come from my extremely talented mentors. I am very fortunate to have been trained by some of the most respected names in the industry. I also love working backstage at shows, such as Intercoiffure Fall Atelier Show in New York City, because of the fast-paced, fiercely energetic environment.\n\nWhy the hair industry: It started with a desire to create beautiful hair, but what I love most about the industry is the connections it brings. Some of my favorite relationships are ones that were created through the industry. People who started out as mentors, co-workers and clients, are some of my best friends.\n\nThree favorite things: \n·      My family. \n·      Laughing untill you get the giggles. \n·      Warm sheets fresh out of the dryer.\n\nMost unlikely inspiration: I love to travel and am always intrigued by the subtle differences in how culture influence fashion and style. Also, 80′s hair bands.",
             specialties: "Cutting, Design & Shape Specialist"
+        },
+        {
+            name: "Michaela",
+            preview: "./images/Team/Michaela.jpg",
+            image: "./images/Team/Michaela-Large.jpg",
+            bio: "I began my career in 2012.\n\nFavorite advanced training: The American Board of Certified Hair Colorists 3 day convention was amazing. It had some of the best known hair colorists teaching a wide variety of classes from placement, to the science behind it.\n\nWhy the hair industry: It’s such a creative platform. Not only are you able to express what you perceive as art on someone’s hair, you are able to build relationships and connect with so many different people.\n\nThree favorite things: \n·      My dog. \n·      Music. \n·      Traveling.\n\nMost unlikely inspiration: I’m inspired by the people around me. Collaboration not competition!",
+            specialties: "Balayage, Natural hair color, Highlighting"
         },
         /*{
             name: "Marquee",
