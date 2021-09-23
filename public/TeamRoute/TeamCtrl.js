@@ -126,6 +126,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
         //     specialties: ""
         // },
         {
+            name: "Liz",
+            preview: "./images/Team/Liz.jpg",
+            image: "./images/Team/Liz-Large.jpg",
+            bio: "Years in the industry: I've been doing hair since 2005.\n\nFavorite advanced training: I've had advanced training all over the world from many different companies and people, learning the most from training under my personal hair hero Tony Shiraki.\n\nWhy the hair industry: I love one on one connection and helping people feel comfortable in their own skin. Hair is also an expression of art to me, I love silhouettes, lines, and the tactile sensation.\n\nThree favorite things: \n·      Sunshine. \n·      Music. \n·      Stand-up Comedy.\n\nMost unlikely inspiration: Mr. Rogers and Bob Ross. I think most situations and things could be made better by asking \"What would Mr. Rogers/Bob Ross do?\"",
+            specialties: "Haircuts of all lengths and textures"
+        },
+        {
             name: "Margo",
             preview: "./images/Team/Margo.jpg",
             image: "./images/Team/Margo-Large.jpg",
