@@ -172,13 +172,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/Olivia-Large.jpg",
             bio: "Years in the industry: I’ve been in the industry since 2009.\n\nFavorite advanced training: Trifecta 2015. I was able to travel to Seattle to join fellow stylists for a weekend of inspiration, education and fun.\n\nWhy the hair industry: I had excelled in math and science in high school, and when I graduated I felt overwhelmed with the opportunities and options in front of me. Originally, I chose to join the industry as a way to help support myself as I ventured through college. I was not the typical stylist who had interest at a very young age. It actually took a few years of being behind the chair for me to realize that this industry was where my passion lies. It started as a means to the end, and although I plan to complete my degree, it transitioned into my new “end.”\n\nThree favorite things:\n·      Education (be it within the industry or not).\n·      Family.\n·      Food.\n\nMost unlikely inspiration: Chemistry and an unhealthy love for Calculus. I studied Analytical Chemistry and Organic Chemistry in college and have found parallels between these areas and the art of hair. The chemical makeup of haircare products/color and the logistics of how and why they work fascinate me. It is a goal of mine to continue to gain a greater understanding of the science behind hair well enough to develop my own line."
         },*/
-        {
-            name: "Renae",
-            preview: "./images/Team/Renae.jpg",
-            image: "./images/Team/Renae-Large.jpg",
-            bio: "Years in the industry: I started my my hair journey in 2012.\n\nFavorite advanced training: Assisting other stylists has been my favorite thus far. Having been lucky enough to have had the opportunity to assist for stylists in Utah and California I observed different artistic approaches to each hair service requested. This taught me to be open and think outside of the box.\n\nWhy the hair industry: I’ve always been an artist and I’ve always loved interacting and learning from people with a different perspective than mine. Being a hair stylist provides me the opportunity to participate in both of those worlds.\n\nThree favorite things:\n·      Family.\n·      Coffee.\n·      The beach.\n\nMost unlikely inspiration: I often find myself driving around taking in the colors and shapes around me. A building, a park, cars… whatever it is I am intrigued how they all play together visually.",
-            specialties: "Men’s Cuts, Women’s Cuts, Long Lasting Natural Hair Color"
-        },
+        // {
+        //     name: "Renae",
+        //     preview: "./images/Team/Renae.jpg",
+        //     image: "./images/Team/Renae-Large.jpg",
+        //     bio: "Years in the industry: I started my my hair journey in 2012.\n\nFavorite advanced training: Assisting other stylists has been my favorite thus far. Having been lucky enough to have had the opportunity to assist for stylists in Utah and California I observed different artistic approaches to each hair service requested. This taught me to be open and think outside of the box.\n\nWhy the hair industry: I’ve always been an artist and I’ve always loved interacting and learning from people with a different perspective than mine. Being a hair stylist provides me the opportunity to participate in both of those worlds.\n\nThree favorite things:\n·      Family.\n·      Coffee.\n·      The beach.\n\nMost unlikely inspiration: I often find myself driving around taking in the colors and shapes around me. A building, a park, cars… whatever it is I am intrigued how they all play together visually.",
+        //     specialties: "Men’s Cuts, Women’s Cuts, Long Lasting Natural Hair Color"
+        // },
         {
             name: "Sarah A",
             preview: "./images/Team/Sarah.jpg",
@@ -186,13 +186,13 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry:  I have been in the salon industry since 2003.\n\nFavorite advanced training: Definitely the 5 days I spent at the Vidal Sassoon Academy in Santa Monica. Their cutting philosophy teaches he fundamentals of lines, shapes and layers, enabling the student to master any hair cut. \n\nWhy the hair industry: \n\nThree favorite things:\n·      My two amazing kids\n·      my hilarious husband\n·      and a very fulfilling career that I’m so grateful for.\n\nMost unlikely inspiration: The things I have failed at, taking risks and making mistakes is the only way to truly grow.",
             specialties: "Classic & Precise Shapes, Balayage, Dry Cuts, Bobs, Long Lengths"
         },
-        {
-            name: "Sarah B",
-            preview: "./images/Team/Sarah-B.jpg",
-            image: "./images/Team/Sarah-B-Large.jpg",
-            bio: "Years in the industry: I began my stylist career as an apprentice in 2014.\n\nFavorite advanced training: The business of balayage. I love hair painting and this course fine-tuned my techniques that I use everyday to create flawless transition of color dimension. \n\nWhy the hair industry:  I am a very creative and visual individual. I love expressing my creativity through hair and witnessing how that makes my clients feel beautiful is a privilege.\n\nThree favorite things:\n·      Outdoor recreation.\n·      Experiencing new adventures: whether it be food, people, travel, or a new outdoor activity.\n·      Friends and family.\n\nMost unlikely inspiration: Music - there are so many different genres that constantly surround and inspire me.",
-            specialties: "Hair Painting, Balayage & Blondes"
-        },
+        // {
+        //     name: "Sarah B",
+        //     preview: "./images/Team/Sarah-B.jpg",
+        //     image: "./images/Team/Sarah-B-Large.jpg",
+        //     bio: "Years in the industry: I began my stylist career as an apprentice in 2014.\n\nFavorite advanced training: The business of balayage. I love hair painting and this course fine-tuned my techniques that I use everyday to create flawless transition of color dimension. \n\nWhy the hair industry:  I am a very creative and visual individual. I love expressing my creativity through hair and witnessing how that makes my clients feel beautiful is a privilege.\n\nThree favorite things:\n·      Outdoor recreation.\n·      Experiencing new adventures: whether it be food, people, travel, or a new outdoor activity.\n·      Friends and family.\n\nMost unlikely inspiration: Music - there are so many different genres that constantly surround and inspire me.",
+        //     specialties: "Hair Painting, Balayage & Blondes"
+        // },
         {
             name: "Shandra",
             preview: "./images/Team/Shandra.jpg",
