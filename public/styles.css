@@ -231,10 +231,13 @@ footer {
   transition: left .75s ease-in-out;
   cursor: pointer; }
   .stylistCard img {
-    width: 100%; }
+    width: 100%;
+    height: calc(100% - 100px);
+    object-fit: cover; }
   .stylistCard p {
     text-align: center;
     width: 100%;
+    font-size: 0.8em;
     font-family: "Julius Sans One"; }
 
 .stylistCard:first-of-type {
