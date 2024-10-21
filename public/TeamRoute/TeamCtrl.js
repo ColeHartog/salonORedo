@@ -27,12 +27,12 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years or level of experience as a stylist: I am a Master level stylist.\n\nFavorite advanced training: My favorite advanced training was the American Board of Hair Colorist. It was a three-day intensive convention on hair color, placement, and the science that goes into it.\n\nWhy did you choose the hair industry: It’s such a creative platform. Not only are you able to express what you perceive as art on someone’s hair, you are able to build relationships and connect with so many different people. Watching my clients leave with more self-esteem is priceless.\n\nThree favorite things: \n- Hiking\n- Traveling\n- My dog, Layla!",
             specialties: "Balayage, Lived-in hair color, Highlights, Long haircuts."
         },
-        {
-            name: "Louisa",
-            image: "./images/Team/LouisaNew.jpg",
-            bio: "Years or level of experience as a stylist: I am a Junior Stylist\n\nFavorite advanced training: My favorite advanced training was an in-depth cutting class with Shannel Mariano. She uses a visual method of teaching that encouraged me to think outside the box. I also loved my Laced Extension training with the owner herself, Lacy.\n\nWhy did you choose the hair industry: I chose the hair industry because I love art and being creative. I’m also very social person and wanted a career that would fulfill both of those needs.\n\nThree favorite things: \n- Travel\n- Art\n- Animals",
-            specialties: "Blonding and Extension services."
-        },
+        // {
+        //     name: "Louisa",
+        //     image: "./images/Team/LouisaNew.jpg",
+        //     bio: "Years or level of experience as a stylist: I am a Junior Stylist\n\nFavorite advanced training: My favorite advanced training was an in-depth cutting class with Shannel Mariano. She uses a visual method of teaching that encouraged me to think outside the box. I also loved my Laced Extension training with the owner herself, Lacy.\n\nWhy did you choose the hair industry: I chose the hair industry because I love art and being creative. I’m also very social person and wanted a career that would fulfill both of those needs.\n\nThree favorite things: \n- Travel\n- Art\n- Animals",
+        //     specialties: "Blonding and Extension services."
+        // },
         {
             name: "Anthony",
             image: "./images/Team/AnthonyNew.jpg",
@@ -104,12 +104,12 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years in the industry: I began my career in 2007 as an apprentice at Yosh For Hair/Gina Khan Salon in San Francisco, CA. While there, I specialized in cutting and advanced to the position of Artistic Director.\n\nFavorite advanced training: My most valuable training has come from my extremely talented mentors. I am very fortunate to have been trained by some of the most respected names in the industry. I also love working backstage at shows, such as Intercoiffure Fall Atelier Show in New York City, because of the fast-paced, fiercely energetic environment.\n\nWhy the hair industry: It started with a desire to create beautiful hair, but what I love most about the industry is the connections it brings. Some of my favorite relationships are ones that were created through the industry. People who started out as mentors, co-workers and clients, are some of my best friends.\n\nThree favorite things: \n- My family. \n- Laughing untill you get the giggles. \n- Warm sheets fresh out of the dryer.\n\nMost unlikely inspiration: I love to travel and am always intrigued by the subtle differences in how culture influence fashion and style. Also, 80′s hair bands.",
             specialties: "Cutting, Design & Shape Specialist"
         },
-        {
-            name: "Katie",
-            image: "./images/Team/Katie-Large.jpg",
-            bio: "Years in the industry: I started my hair career in 2012.\n\nFavorite advanced training: My favorite advanced training was an editorial class from Chris Baran.  He showed us the behind the scenes of fashion week and avant-garde photo shoots.  We learned how to make wigs and hair pieces and also how to apply them by crocheting them into the hair or utilizing chicken wire to create the shape you wanted.  It’s not so glitz and glam after all!\n\nWhy the hair industry: I always wanted to be in the beauty industry from a very young age.  I would always beg my parents to buy me hair and makeup products from the grocery store (this started at about age 3) and they never understood why I wanted lipstick instead of a toy sometimes.  I love the fashion forward trends and the open mindedness of the community and how everyone is so welcoming.\n\nThree favorite things:\n- Cats (followed by a Benadryl since I’m allergic).\n- Strong coffee.\n- Velvet.\n\nMost unlikely inspiration: Comedy.  Particularly stand up.  I love how someone can create content that is specifically meant to make people laugh and bring people together.  It’s a true talent to be able to create a laughable outcome out of a not so pleasant situation.  Being able to laugh about not only happy/hilarious things but also sad things uplifts the spirit and creates positivity as well as creativity.",
-            specialties: "Color, Blondes, Balayages"
-        },
+        // {
+        //     name: "Katie",
+        //     image: "./images/Team/Katie-Large.jpg",
+        //     bio: "Years in the industry: I started my hair career in 2012.\n\nFavorite advanced training: My favorite advanced training was an editorial class from Chris Baran.  He showed us the behind the scenes of fashion week and avant-garde photo shoots.  We learned how to make wigs and hair pieces and also how to apply them by crocheting them into the hair or utilizing chicken wire to create the shape you wanted.  It’s not so glitz and glam after all!\n\nWhy the hair industry: I always wanted to be in the beauty industry from a very young age.  I would always beg my parents to buy me hair and makeup products from the grocery store (this started at about age 3) and they never understood why I wanted lipstick instead of a toy sometimes.  I love the fashion forward trends and the open mindedness of the community and how everyone is so welcoming.\n\nThree favorite things:\n- Cats (followed by a Benadryl since I’m allergic).\n- Strong coffee.\n- Velvet.\n\nMost unlikely inspiration: Comedy.  Particularly stand up.  I love how someone can create content that is specifically meant to make people laugh and bring people together.  It’s a true talent to be able to create a laughable outcome out of a not so pleasant situation.  Being able to laugh about not only happy/hilarious things but also sad things uplifts the spirit and creates positivity as well as creativity.",
+        //     specialties: "Color, Blondes, Balayages"
+        // },
     ].sort((a, b) => a.name >= b.name);
 //   FILES NEED TO BE .jpeg||.jpg (lower case)
     $scope.leftPOS = 0;
