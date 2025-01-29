@@ -39,29 +39,35 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             bio: "Years or level of experience as a stylist: I began my career at Salon O as an assistant & worked my way up to Senior Stylist in a short 6 years.\n\nFavorite advanced training: My favorite advanced training was Vidal Sassoon in Santa Monica. Sassoon teaches the intricate and fundamental details of cutting hair. It helped me connect the dots in haircutting and advanced my skill set.\n\nWhy did you choose the hair industry: I knew from age 6 that I wanted a career in the beauty industry. I’ve always loved making people feel their best.\n\nThree favorite things: \n- Animals, especially dogs\n- Great food\n- The beach",
             specialties: "In all things Blonde. I love a great haircut too!"
         },
-        {
-            name: "Kathryne",
-            image: "./images/Team/KathryneNew.jpg",
-            bio: "Years or level of experience: I’ve been an aesthetician/sugaring specialist for 23 years and a cosmetic tattoo artist for nearly 8 years.\n\nFavorite advanced training: It’s hard to pinpoint one advanced training because my career has taken so many directions over the years, which means I’m in a perpetual state of advanced education! I recently completed a Nano Brow Course (Machine Hair Strokes) with Olya Van Patten of Utah Microblading. She is an absolute master of her craft and a generous mentor and educator. Learning a new skill set this far into my career is challenging, but so exciting.\n\nWhy did you choose the hair industry: My entrance into the industry began as a back-up plan for a young struggling art school dropout. I thought I’d do it for a short time while I figured out what I REALLY wanted to do. When I woke up to the fact that this IS what I want to do everything changed for me. This industry has given me the freedom to constantly evolve as an artist, technician, and a human. I’m the forever student. My true passion, beyond the craft is human connection!\n\nThree favorite things: \n-Alone time with a podcast\n- Vacations with my family\n- Nights spent curled up on the couch watching “animal fail” videos with my boys and my sweet goldendoodle.",
-            specialties: "Microblading, Nano Brow, Ombre brow, and Sugaring."
-        },
+        // {
+        //     name: "Kathryne",
+        //     image: "./images/Team/KathryneNew.jpg",
+        //     bio: "Years or level of experience: I’ve been an aesthetician/sugaring specialist for 23 years and a cosmetic tattoo artist for nearly 8 years.\n\nFavorite advanced training: It’s hard to pinpoint one advanced training because my career has taken so many directions over the years, which means I’m in a perpetual state of advanced education! I recently completed a Nano Brow Course (Machine Hair Strokes) with Olya Van Patten of Utah Microblading. She is an absolute master of her craft and a generous mentor and educator. Learning a new skill set this far into my career is challenging, but so exciting.\n\nWhy did you choose the hair industry: My entrance into the industry began as a back-up plan for a young struggling art school dropout. I thought I’d do it for a short time while I figured out what I REALLY wanted to do. When I woke up to the fact that this IS what I want to do everything changed for me. This industry has given me the freedom to constantly evolve as an artist, technician, and a human. I’m the forever student. My true passion, beyond the craft is human connection!\n\nThree favorite things: \n-Alone time with a podcast\n- Vacations with my family\n- Nights spent curled up on the couch watching “animal fail” videos with my boys and my sweet goldendoodle.",
+        //     specialties: "Microblading, Nano Brow, Ombre brow, and Sugaring."
+        // },
         {
             name: "Shandra",
             image: "./images/Team/ShandraNew.jpg",
             bio: "Years or level of experience as a stylist: Master Stylist 20 years of experience\n\nFavorite advanced training: My two favorites have been the Bumble and Bumble training, mastery of design for razor cutting and Laced Academy extension training: working with natural beaded rows, tape ins, and the interlaced method of extensions.\n\nWhy did you choose the hair industry: I like to connect to people. I also like the use of artistic form on a space that can always be different. A world that I can cultivate and create. Hair and those I get to share it with have been my inspiration. I simply just have joy when in hair.\n\nThree favorite things: \n- Hair. Truly I can be creative and also regimented. But I am obsessed over my art and am so lucky to have found my career in the industry.\n- Music and Theatre, and musical theatre. They make me, me.\n- Family, Friends, and cats. They all surround me with the love I hope to return in kind.",
             specialties: "Shag / editorial cutting, fashion color focused design / color specialist. Textures cutting, pixies, mullet, shag"
         },
-        {
-            name: "Bethany",
-            image: "./images/Team/BethanyNew.jpg",
-            bio: "Years or level of experience as a stylist: Master Stylist with 20 years of experience.\n\nFavorite advanced training: Natural Beaded Rows Advanced Academy. This yearlong academy has not only taught me an amazing method of extensions but has pushed me harder to be a better stylist and better human with classes in color, cutting, business, and self-development.\n\nWhy did you choose the hair industry: I’ve wanted to do hair since high school. But, what has kept me doing ahir for nearly 2 decades, is the people that I’ve surrounded myself with and my beautiful guests that sit in my chair.\n\nThree favorite things: \n- Spending time with my husband and kiddos \n- Skincare \n- Travel",
-            specialties: "Dimensional Color and NBR Hair Extensions"
-        },
+        // {
+        //     name: "Bethany",
+        //     image: "./images/Team/BethanyNew.jpg",
+        //     bio: "Years or level of experience as a stylist: Master Stylist with 20 years of experience.\n\nFavorite advanced training: Natural Beaded Rows Advanced Academy. This yearlong academy has not only taught me an amazing method of extensions but has pushed me harder to be a better stylist and better human with classes in color, cutting, business, and self-development.\n\nWhy did you choose the hair industry: I’ve wanted to do hair since high school. But, what has kept me doing ahir for nearly 2 decades, is the people that I’ve surrounded myself with and my beautiful guests that sit in my chair.\n\nThree favorite things: \n- Spending time with my husband and kiddos \n- Skincare \n- Travel",
+        //     specialties: "Dimensional Color and NBR Hair Extensions"
+        // },
         {
             name: "Shannon",
             image: "./images/Team/ShannonNew.jpg",
             bio: "Years or level of experience as a stylist: Senior Stylist with 7 years experience.\n\nFavorite advanced training: My favorite advanced training was my L’Oréal Professional Color certification. This is where I learned the most about customizing color and sectioning for maximum impact.\n\nWhy did you choose the hair industry: Honestly, at first, I chose the hair industry because I didn’t know what else to do. I thought, “I’ll just do this for now.” But I fell in love with creating art on hair & an industry that pushes me to be better every day. I fell in love with watching my guest’s face light up once they saw their hair finished. I get to show women every single day how beautiful they are. Doing hair is honestly so fun and so rewarding to me. I love what I do. I’m constantly surrounded by the most inspiring and positive people I’ve ever met. Working in this industry has changed my life. Its more than just hair & I’ll continue to choose it every day.\n\nThree favorite things: \n- My Job \n- Hiking & weight lifting \n- Trying new food!",
             specialties: "Highlights and Balayage"
+        },
+        {
+            name: "McKayla",
+            image: "./images/Team/Mckayla.jpeg",
+            bio: "Years or level of experience as a stylist: I’ve been a hairstylist for 4 years\n\nFavorite advanced training: So far my favorite advanced training has been in NBR/Weft extensions, and color theory with the direction of subtly enhancing my clients natural hair color to give it that “sunkissed” look.\n\nWhy did you choose the hair industry: Ive had a burning passion for this industry since I was young, but mostly I love being an artist that helps women feel their best. \n\nThree favorite things: \n- I love traveling/exploring new cultures and places \n-  I love all things food with friends \n- Long walks at a good park with my sweet dog!!",
+            // specialties: "Blondes, haircutting, and IBE Extension Certified."
         },
         {
             name: "Melissa",
@@ -83,8 +89,8 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
         },
         {
             name: "Tonni",
-            image: "./images/Team/TonniNew.jpg",
-            bio: "Years or level of experience as a stylist: Master Stylist with 16 years of experience.\n\nFavorite advanced training: It’s hard to choose just one! The three day Allilon cutting course in Vancouver,B.C. has been a game changer behind the chair. Becoming a certified Global Color Artist. I loved learning about the science behind color. It makes me feel like a mad Chemist! Lastly, spending five days in London at the Vidal Sassoon Academy. If you can perfect the principles they teach, you can create and customize anything and EVERYTHING!\n\nWhy did you choose the hair industry: I have always been drawn to hair. Shapes, sizes, angles, measurements and what they can accentuate. Imagine adding color bringing all of those shapes and designs to life! It’s incredible seeing what that can do to a persons look and their confidence level.\n\nThree favorite things: \n- My Partner and our two pups \n- Drumming. I will always be a punk rock kid at heart. \n- Riding motorcycles. It can be in the mountains, in the sand or on the pavement. Just tell me when or where and I’ll meet you there,",
+            image: "./images/Team/TonniNew2.jpeg",
+            bio: "Years or level of experience as a stylist: Master Stylist with 16 years of experience.\n\nFavorite advanced training: It’s hard to choose just one! The three day Allilon cutting course in Vancouver,B.C. has been a game changer behind the chair. Becoming a certified Global Color Artist. I loved learning about the science behind color. It makes me feel like a mad Chemist! Lastly, spending five days in London at the Vidal Sassoon Academy. If you can perfect the principles they teach, you can create and customize anything and EVERYTHING!\n\nWhy did you choose the hair industry: I have always been drawn to hair. Shapes, sizes, angles, measurements and what they can accentuate. Imagine adding color bringing all of those shapes and designs to life! It’s incredible seeing what that can do to a persons look and their confidence level.\n\nThree favorite things: \n- My favorite people and two pups \n- Drumming. I will always be a punk rock kid at heart. \n- Riding Motorcycles. Whether it be in the mountains, on the sand dunes or the open road.",
             specialties: "Precision cutting, It’s all about the details! Classic Shapes, long hair, short hair, pixies, and barbering. Lived-in color and Balayage."
         },
         {
@@ -97,6 +103,24 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/LizNew.jpg",
             bio: "Years in the industry: I've been doing hair since 2005.\n\nFavorite advanced training: I've had advanced training all over the world from many different companies and people, learning the most from training under my personal hair hero Tony Shiraki.\n\nWhy the hair industry: I love one on one connection and helping people feel comfortable in their own skin. Hair is also an expression of art to me, I love silhouettes, lines, and the tactile sensation.\n\nThree favorite things: \n- Sunshine. \n- Music. \n- Stand-up Comedy.\n\nMost unlikely inspiration: Mr. Rogers and Bob Ross. I think most situations and things could be made better by asking \"What would Mr. Rogers/Bob Ross do?\"",
             specialties: "Haircuts of all lengths and textures"
+        },
+        // {
+        //     name: "Quinn",
+        //     image: "./images/Team/Quinn.png",
+        //     bio: "Years or level of experience as a stylist:  I am a junior stylist.\n\nFavorite advanced training: I took a Kevin Murphy color class at their headquarters and loved learning new “lived in” color techniques.\n\nWhy did you choose the hair industry:  I love getting to go to work and make people feel good about themselves.\n\nThree favorite things: \n- My family, especially my dog.\n- Camping/ or anything outside.\n- The Jazz.",
+        //     // specialties: "Extensions, specifically Great Lengths Keratin Bonds. Loves Blondes and Color."
+        // },
+        {
+            name: "Lisa",
+            image: "./images/Team/Lisa.jpeg",
+            bio: "Hi, my name is Lisa and I just moved to Utah from New York. I have been a cosmetologist for over 10 years and a salon owner for the last 7 years. I offer a variety of services holding certifications in Masters of Balayage and academy pro hair extensions. I am passionate about keeping up with the latest trends and techniques as our industry is constantly evolving. I strive to give the best possible experience in my chair and to ensure client satisfaction.  I am excited for my next chapter at Salon O and to continue to grow as a stylist.\n\n Years or level of experience as a stylist: 10.\n\nFavorite advanced training: Masters of Balayage.\n\nThree favorite things: \n- Family & friends.\n- Health / wellness.\n- Cooking.",
+            // specialties: "Extensions, specifically Great Lengths Keratin Bonds. Loves Blondes and Color."
+        },
+        {
+            name: "Paige",
+            image: "./images/Team/Paige.jpg",
+            bio: "Years or level of experience as a stylist: I've been in the industry for 6 years. I have worked my way up to being a master colorist and extension specialist.\n\nFavorite advanced training: My favorite advanced training that I have participated in was an advanced extension and color training my Eric Vaughan focusing on getting the perfect blend through custom weft coloring and cutting.\n\nWhy the hair industry: I choose to enter the hair industry because it allows me to blend my love of science and creativity while getting to talk to people from all walks of life. I love that I get to be detail oriented and continue to learn, as styles are ever-evolving. \n\nThree favorite things: \n- Traveling.\n- Outdoor recreation.\n- Netflix binging with my cat.",
+            // specialties: "Extensions, specifically Great Lengths Keratin Bonds. Loves Blondes and Color."
         },
         {
             name: "Margo",
