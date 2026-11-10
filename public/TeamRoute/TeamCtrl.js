@@ -8,14 +8,14 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/BrittneyTeamphoto.jpg",
             bio: "Years or level of experience as a stylist: I am the Director of Salon O and a master stylist with 15 years of experience.\n\nFavorite advanced training: My Favorite Advanced training I attended was a one on one cutting coarse with Slate Hair Education in London, England. Being able to completely focus and refine my cutting skills with a master in haircutting was such great learning experience for me.\n\nWhy did you choose the hair industry: I continue to choose the hair industry because it truly is a deep passion for me. I love so many things about what I do but my number one would be the people. The people I’m surrounded with everyday bring me so much joy and fill my cup beyond measure.\n\nThree favorite things: \n- Traveling, especially with my husband. \n- Thrifting, with my cute daughters.\n- Animals, my 3 dogs are like my kids.",
             specialties: "Extensions, specifically Great Lengths Keratin Bonds. Loves Blondes and Color.",
-            insta: "@asyouarehairartistry"
+            insta: "asyouarehairartistry"
         },
         {
             name: "Sarah",
             image: "./images/Team/SarahATeamphoto.png",
             bio: "Years or level of experience as a stylist: I’m a Master Stylist with over 20 years of experience.\n\nFavorite advanced training: My absolute favorite training has been the courses I’ve taken at Vidal Sassoon in Santa Monica. Sassoon emphasizes the fundamentals of cutting hair giving the stylist the freedom to create and master any haircut!\n\nWhy did you choose the hair industry: I continue to choose the hair industry because I value and respect the art of what we do behind the chair and relationships we form with our clients. It’s a bond unlike any other.\n\nThree favorite things: \n- Cheeseburgers in all shapes and sizes\n- Reading a new book\n- Nights with my family",
             specialties: "My specialty is hair cutting and natural color services",
-            insta: "@sarahsalon_o"
+            insta: "sarahsalon_o"
         },
         // {
         //     name: "Jessica",
@@ -28,7 +28,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/MichaelaTeamphoto.jpg",
             bio: "Years or level of experience as a stylist: I am a Master level stylist.\n\nFavorite advanced training: My favorite advanced training was the American Board of Hair Colorist. It was a three-day intensive convention on hair color, placement, and the science that goes into it.\n\nWhy did you choose the hair industry: It’s such a creative platform. Not only are you able to express what you perceive as art on someone’s hair, you are able to build relationships and connect with so many different people. Watching my clients leave with more self-esteem is priceless.\n\nThree favorite things: \n- Hiking\n- Traveling\n- My dog, Layla!",
             specialties: "Balayage, Lived-in hair color, Highlights, Long haircuts.",
-            insta: "@kayladoeshair"
+            insta: "kayladoeshair"
         },
         // {
         //     name: "Louisa",
@@ -41,7 +41,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/AnthonyTeamphoto.jpg",
             bio: "Years or level of experience as a stylist: I began my career at Salon O as an assistant & worked my way up to Senior Stylist in a short 6 years.\n\nFavorite advanced training: My favorite advanced training was Vidal Sassoon in Santa Monica. Sassoon teaches the intricate and fundamental details of cutting hair. It helped me connect the dots in haircutting and advanced my skill set.\n\nWhy did you choose the hair industry: I knew from age 6 that I wanted a career in the beauty industry. I’ve always loved making people feel their best.\n\nThree favorite things: \n- Animals, especially dogs\n- Great food\n- The beach",
             specialties: "In all things Blonde. I love a great haircut too!",
-            insta: "@weazystyles"
+            insta: "weazystyles"
         },
         // {
         //     name: "Kathryne",
@@ -54,7 +54,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/ShandraTeamphoto.jpg",
             bio: "Years or level of experience as a stylist: Master Stylist 20 years of experience\n\nFavorite advanced training: My two favorites have been the Bumble and Bumble training, mastery of design for razor cutting and Laced Academy extension training: working with natural beaded rows, tape ins, and the interlaced method of extensions.\n\nWhy did you choose the hair industry: I like to connect to people. I also like the use of artistic form on a space that can always be different. A world that I can cultivate and create. Hair and those I get to share it with have been my inspiration. I simply just have joy when in hair.\n\nThree favorite things: \n- Hair. Truly I can be creative and also regimented. But I am obsessed over my art and am so lucky to have found my career in the industry.\n- Music and Theatre, and musical theatre. They make me, me.\n- Family, Friends, and cats. They all surround me with the love I hope to return in kind.",
             specialties: "Shag / editorial cutting, fashion color focused design / color specialist. Textures cutting, pixies, mullet, shag",
-            insta: "@hairoinechique"
+            insta: "hairoinechique"
         },
         // {
         //     name: "Bethany",
@@ -67,7 +67,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/ShannonTeamphoto.jpg",
             bio: "Years or level of experience as a stylist: 10 years.\n\nFavorite advanced training: Braggn University. Which is An amazing online education platform for hairstylists to continue learning new techniques, color placements & business skills. The industry is always changing so I love having this platform to stay up to date with the latest trends.\n\nWhy did you choose hair: I love helping women feel their best selves!\n\nThree favorite things: \n I love trying new restaurants\n- weekend trips \n- immersing myself in nature!",
             specialties: "lived in highlights & long layered haircuts",
-            insta: "@hairxshannon"
+            insta: "hairxshannon"
         },
         // {
         //     name: "McKayla",
@@ -92,7 +92,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/MoniqueTeamphoto.jpg",
             bio: "Years or level of experience as a stylist: Master Stylist with 25 years experience\n\nFavorite advanced training: My favorite advanced training was a cutting class by Robert Cromeans. He was so much fun to watch and he made me want to immediately start cutting and coloring hair.\n\nWhy did you choose the hair industry: I chose the hair industry because I love making people feel good about themselves. It is both hard work and a creative outlet.\n\nThree favorite things: \n- My Family \n- Music \n- Good Food",
             specialties: "Curly hair, Cutting and the best Hype Woman.",
-            insta: "@cocomo2010"
+            insta: "cocomo2010"
         },
         {
             name: "Tonni",
@@ -128,7 +128,7 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/PaigeTeamphoto.jpg",
             bio: "Years or level of experience as a stylist: I've been in the industry for 6 years. I have worked my way up to being a master colorist and extension specialist.\n\nFavorite advanced training: My favorite advanced training that I have participated in was an advanced extension and color training my Eric Vaughan focusing on getting the perfect blend through custom weft coloring and cutting.\n\nWhy the hair industry: I choose to enter the hair industry because it allows me to blend my love of science and creativity while getting to talk to people from all walks of life. I love that I get to be detail oriented and continue to learn, as styles are ever-evolving. \n\nThree favorite things: \n- Traveling.\n- Outdoor recreation.\n- Netflix binging with my cat.",
             // specialties: "Extensions, specifically Great Lengths Keratin Bonds. Loves Blondes and Color."
-            insta: "@hairbyp__"
+            insta: "hairbyp__"
         },
         {
             name: "Margo",
@@ -147,28 +147,28 @@ angular.module("salono").controller("TeamCtrl", ["$scope", "TeamSvc", function($
             image: "./images/Team/BronsonTeamphoto.jpg",
             bio: "Why the hair industry: I chose the hair industry because I love to be creative and meet new people, I also love to make people feel affirmed and happy in their appearance and so that’s why I chose the industry\n\nFavorite advanced training:  I would say a mentor who changed the way I look at hair is Chantry Wagstaff, she helped me understand the flow of hair and the way color can lay within the hair as well as layering techniques.\n\nMy three favorite things are: \n- My family. \n- dance. \n- going on trips.",
             specialties: "Color, curly hair, as well as alternative haircuts.",
-            insta: "@starboy.beauty",
+            insta: "starboy.beauty",
         },
         {
             name: "Hunter",
             image: "./images/Team/HunterTeamphoto.jpg",
             bio: "Years in the industry or Level of Experience: 5 years.\n\nFavorite advanced training: Kevin Murphy blonding class.  I loved learning more about blonding techniques that are new and innovative.\n\nWhy did you choose the hair industry: I wanted to be able to express artistic creativity and I’ve always loved the beauty industry.\n\nThree Favorite things:\n- My cat\n- The outdoors \n- Climbing",
             specialties: "Layered cuts and bouncy blowouts",
-            insta: "@huntermadehair",
+            insta: "huntermadehair",
         },
         {
             name: "Mary",
             image: "./images/Team/MaryTeamphoto.jpg",
             bio: "Years in the industry or Level of Experience: 14 yrs.\n\nFavorite advanced training: I love a good blonding class and learning new placements for foils.\n\nWhy did you choose the hair industry: I chose the hair industry bc I loved makeup, and when you sign up for hair school they say they’ll teach you makeup as well. Now I do both and I love both!\n\nThree Favorite things: \n- Being with my little girl\n- Makeup\n- reading a good memoir.",
             specialties: "dimensional color and a pixie cut",
-            insta: "@robbiemakeupandhair",
+            insta: "robbiemakeupandhair",
         },
         {
             name: "Sara Lee",
             image: "./images/Team/SaraLeeTeamphoto.jpg",
             bio: "Years in the Industry / Level of Experience: Graduated from Gene Juarez Academy in Seattle in 2010, with over a decade of hands-on experience behind the chair.\n\nFavorite Advanced Training: \n- Blonding and foiling at 901 Academy in Beverly Hills\n- Jane Edo cutting and petaling techniques\n- Precision cutting with Fumi Eguchi\n\nWhy Did You Choose the Hair Industry? I originally chose the hair industry because it looked like a cool, creative way to shape and style different looks. Over the years, I've kept choosing it - again and again - because I love human connection. I love forming bonds, helping people feel beautiful, and supporting them through whatever chapter of life they're in, whether it's bright, messy, transitional, or transformative. There's a kind of magic in the synchronicity that happens between people in this wild, multi-experiential world. Hair is one of the places where that magic shows up.\n\nThree Favorite Things:\n- My daughter - watching her grow, discover her talents, and show her caring heart.\n- Creating art, designing hairstyles, and experiencing art in all its forms.\n- Reading about mysticism, historical occult practices, and theosophy - exploring why humans gravitate toward the \"unknown\" through ritual, magick, and the psyche. Hair is a kind of magic too, don't you think?",
             specialties: "haircutting and designing shapes that fit each person's aesthetics",
-            insta: "@saralee23hair",
+            insta: "saralee23hair",
         },
         {
             name: "Taylor",
